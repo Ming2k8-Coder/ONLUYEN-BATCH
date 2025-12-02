@@ -1,0 +1,1891 @@
+{
+    "success": true,
+    "data": {
+        "accuracy": 3.33,
+        "answerUrlPremade": "https://assignments.onluyen.vn/assign/6913d551cc53ac706116c66a/66e7d7998e3d6ea4dfde1d1a/69191d500549529378569c39.json",
+        "assignId": "6913d551cc53ac706116c66a",
+        "startTimeAssign": 1762908000,
+        "endTimeAssign": 1763253600,
+        "retryable": false,
+        "assignmentContentType": 0,
+        "assignmentType": 0,
+        "currentIdQuestion": "69191d500549529378569c3c",
+        "duration": 0,
+        "firstIdQuestion": "69191d500549529378569c3c",
+        "isExplain": false,
+        "listFile": [],
+        "logId": "69191d500549529378569c39",
+        "maxScore": 10.0,
+        "maxScoreEssay": 0.0,
+        "maxScoreMultipleChoice": 10.0,
+        "name": "Vocabulary: Các từ vựng dùng để nói về cuộc đời của một người (trung bình - khá)",
+        "percentComplete": 100,
+        "permissionViewResult": 0,
+        "serverTime": 1763284616,
+        "speed": 1.875,
+        "startTime": 1763253584,
+        "submitTime": 0,
+        "status": 3,
+        "totalCorrect": 1,
+        "totalIncorrect": 29,
+        "totalPartialCorrect": 0,
+        "totalQuestion": 30,
+        "totalQuestionView": 0,
+        "totalScore": 0.33,
+        "totalScoreEssay": 0.0,
+        "totalScoreMultipleChoice": 0.33,
+        "totalTimeDoing": 16,
+        "isAccess": true,
+        "dataDetail": {
+            "id": "69191d500549529378569c39",
+            "name": "Vocabulary: Các từ vựng dùng để nói về cuộc đời của một người (trung bình - khá)",
+            "listSectionName": [],
+            "startTime": 1763253584,
+            "endTime": 1763253600,
+            "submitTime": 0,
+            "autoSubmit": 1763253602,
+            "assignmentType": 0,
+            "assignmentContentType": 0,
+            "listFile": [],
+            "answerUrlPremade": "https://assignments.onluyen.vn/assign/6913d551cc53ac706116c66a/66e7d7998e3d6ea4dfde1d1a/69191d500549529378569c39.json",
+            "isExplain": false,
+            "data": [
+                {
+                    "dataStandard": {
+                        "stepId": "69191d500549529378569c3c",
+                        "testId": "6913d551cc53ac706116c66a",
+                        "stepNextId": "69191d500549529378569c3d",
+                        "stepIndex": 0,
+                        "content": "<p>\r\n<style type=\"text/css\"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->\r\n</style>\r\n<em><strong>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>Many people never forget the first person they fall ______ love ______.</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+                        "options": [
+                            {
+                                "content": "<p>in - for</p>",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>to - for</p>",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>in - with</p>",
+                                "idOption": 2,
+                                "isAnswer": true,
+                                "userSelected": true
+                            },
+                            {
+                                "content": "<p>in - to</p>",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 1,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "rightAnswer": true,
+                        "userOptionId": [
+                            2
+                        ],
+                        "userOptionText": [],
+                        "numberQuestion": 151320,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            2
+                        ],
+                        "answerFreeText": [],
+                        "explain": "<p>fall in love with sb:&nbsp;yêu ai đó</p>\r\n\r\n<p>Tạm dịch: Nhiều người chẳng thể quên được người đầu tiên họ đã yêu.</p>\r\n",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.3333,
+                        "maxScore": 0.3333,
+                        "percentRight": 100.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "69191d500549529378569c3d",
+                        "testId": "6913d551cc53ac706116c66a",
+                        "stepNextId": "69191d500549529378569c3e",
+                        "stepIndex": 1,
+                        "content": "<p>\r\n<style type=\"text/css\"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->\r\n</style>\r\n<em><strong>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>My parents ______ engaged when they ______ both 25 years old.</p>\r\n",
+                        "options": [
+                            {
+                                "content": "<p>were - got</p>",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": true
+                            },
+                            {
+                                "content": "<p>got - were</p>",
+                                "idOption": 1,
+                                "isAnswer": true,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>got - became</p>",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>get - are</p>",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 2,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "rightAnswer": false,
+                        "userOptionId": [
+                            0
+                        ],
+                        "userOptionText": [],
+                        "numberQuestion": 151321,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            1
+                        ],
+                        "answerFreeText": [],
+                        "explain": "<p>Cụm cố định &lsquo;get engaged&rsquo;: đính hôn</p>\r\n\r\n<p>Khi nói về thời điểm tuổi tác diễn ra sự kiện thì chỉ cần&nbsp;dùng&nbsp;S&nbsp;+ be + age</p>\r\n\r\n<p>Tạm dịch: Cha mẹ tôi đính hôn vào năm mà cả hai đều 25 tuổi.</p>\r\n",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.0,
+                        "maxScore": 0.3333,
+                        "percentRight": 0.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "69191d500549529378569c3e",
+                        "testId": "6913d551cc53ac706116c66a",
+                        "stepNextId": "69191d500549529378569c3f",
+                        "stepIndex": 2,
+                        "content": "<p>\r\n<style type=\"text/css\"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->\r\n</style>\r\n<em><strong>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>I was born in Vietnam but I ______ in France.</p>\r\n",
+                        "options": [
+                            {
+                                "content": "<p>grew up</p>",
+                                "idOption": 0,
+                                "isAnswer": true,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>brought up</p>",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>rose</p>",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>raised</p>",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 0,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "userOptionId": [],
+                        "userOptionText": [],
+                        "numberQuestion": 151322,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            0
+                        ],
+                        "answerFreeText": [],
+                        "explain": "<p>grow up (vp): lớn lên</p>\r\n\r\n<p>raise/bring up (vp): nuôi lớn ai đó</p>\r\n\r\n<p>rise (v): mọc lên&nbsp;</p>\r\n\r\n<p>rose&nbsp;quá khứ đơn của rise</p>\r\n\r\n<p>Tạm dịch: Tôi sinh ra ở Việt Nam nhưng lại lớn lên ở Pháp.</p>\r\n",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.0,
+                        "maxScore": 0.3333,
+                        "percentRight": 0.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "69191d500549529378569c3f",
+                        "testId": "6913d551cc53ac706116c66a",
+                        "stepNextId": "69191d500549529378569c40",
+                        "stepIndex": 3,
+                        "content": "<p>\r\n<style type=\"text/css\"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->\r\n</style>\r\n<em><strong>Mark the letter A, B, C, or D&nbsp;to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>Jane and Brian finally got married three years after their ______.</p>\r\n",
+                        "options": [
+                            {
+                                "content": "<p>engagement</p>",
+                                "idOption": 0,
+                                "isAnswer": true,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>divorce</p>",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>proposal</p>",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>separation</p>",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 0,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "userOptionId": [],
+                        "userOptionText": [],
+                        "numberQuestion": 151323,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            0
+                        ],
+                        "answerFreeText": [],
+                        "explain": "<p>divorce (n): li hôn</p>\r\n\r\n<p>proposal (n): bản đề xuất dự thảo, sự cầu hôn</p>\r\n\r\n<p>engagement (n): sự đính hôn</p>\r\n\r\n<p>separation (n): sự ly thân</p>\r\n\r\n<p>=&gt; dùng engagement phù hợp hơn proposal</p>\r\n\r\n<p>Tạm dịch: Jane và Brian cuối cùng cũng đã kết hôn sau&nbsp;ba năm từ ngày họ đính hôn.</p>\r\n",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.0,
+                        "maxScore": 0.3333,
+                        "percentRight": 0.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "69191d500549529378569c40",
+                        "testId": "6913d551cc53ac706116c66a",
+                        "stepNextId": "69191d500549529378569c41",
+                        "stepIndex": 4,
+                        "content": "<p><em><strong>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>I got to ______ Anne two years ago when we studied our master program together.</p>\r\n",
+                        "options": [
+                            {
+                                "content": "<p>introduce</p>",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>sympathize</p>",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>meet</p>",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>know</p>",
+                                "idOption": 3,
+                                "isAnswer": true,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 0,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "userOptionId": [],
+                        "userOptionText": [],
+                        "numberQuestion": 151324,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            3
+                        ],
+                        "answerFreeText": [],
+                        "explain": "<p>Cụm cố định &lsquo;get to know sb&rsquo;: làm quen ai đó</p>\r\n\r\n<p>Tạm dịch: Tôi đã&nbsp;làm quen&nbsp;Anne hai năm trước khi chúng tôi học lớp thạc sĩ cùng nhau.</p>\r\n",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.0,
+                        "maxScore": 0.3333,
+                        "percentRight": 0.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "69191d500549529378569c41",
+                        "testId": "6913d551cc53ac706116c66a",
+                        "stepNextId": "69191d500549529378569c42",
+                        "stepIndex": 5,
+                        "content": "<p><em><strong>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>Parents have to try hard to understand the younger ______.</p>\r\n",
+                        "options": [
+                            {
+                                "content": "<p>people</p>",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>adolescents</p>",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>generation</p>",
+                                "idOption": 2,
+                                "isAnswer": true,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>teenagers</p>",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 0,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "userOptionId": [],
+                        "userOptionText": [],
+                        "numberQuestion": 151325,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            2
+                        ],
+                        "answerFreeText": [],
+                        "explain": "<p>có the = &gt; cụm xác định = &gt; the younger generation</p>\r\n\r\n<p>Tạm dịch: Cha mẹ cần phải cố gắng nhiều hơn để hiểu được thế hệ trẻ.</p>\r\n",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.0,
+                        "maxScore": 0.3333,
+                        "percentRight": 0.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "69191d500549529378569c42",
+                        "testId": "6913d551cc53ac706116c66a",
+                        "stepNextId": "69191d500549529378569c43",
+                        "stepIndex": 6,
+                        "content": "<p><em><strong>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>Stephanie seems to be very ______ with her classmates.</p>\r\n",
+                        "options": [
+                            {
+                                "content": "<p>popular</p>",
+                                "idOption": 0,
+                                "isAnswer": true,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>likable</p>",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>known</p>",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>famous</p>",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 0,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "userOptionId": [],
+                        "userOptionText": [],
+                        "numberQuestion": 151326,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            0
+                        ],
+                        "answerFreeText": [],
+                        "explain": "<p>famous/known + for st: nổi tiếng vì/nhờ điều gì đó</p>\r\n\r\n<p>famous among group of people: nổi tiếng trong một nhóm người</p>\r\n\r\n<p>popular with: được yêu thích</p>\r\n\r\n<p>likable không có giới từ đi kèm</p>\r\n\r\n<p>Tạm dịch: Stephanie có vẻ rất nổi tiếng trong lớp.</p>\r\n",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.0,
+                        "maxScore": 0.3333,
+                        "percentRight": 0.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "69191d500549529378569c43",
+                        "testId": "6913d551cc53ac706116c66a",
+                        "stepNextId": "69191d500549529378569c44",
+                        "stepIndex": 7,
+                        "content": "<p><em><strong>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>My dad says he once met Taylor Swift when she was still ______.</p>\r\n",
+                        "options": [
+                            {
+                                "content": "<p>unrelated</p>",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>hidden</p>",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>unknown</p>",
+                                "idOption": 2,
+                                "isAnswer": true,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>infamous</p>",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 0,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "userOptionId": [],
+                        "userOptionText": [],
+                        "numberQuestion": 151327,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            2
+                        ],
+                        "answerFreeText": [],
+                        "explain": "<p>unknown (adj): chưa nổi tiếng, chưa được biết đến</p>\r\n\r\n<p>hidden (v): ẩn giấu</p>\r\n\r\n<p>infamous (adj): khét tiếng</p>\r\n\r\n<p>unrelated (adj): không liên quan</p>\r\n\r\n<p>Tạm dịch: Bố tôi nói đã từng gặp Taylor Swift từ ngày cô còn chưa nổi tiếng.</p>\r\n",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.0,
+                        "maxScore": 0.3333,
+                        "percentRight": 0.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "69191d500549529378569c44",
+                        "testId": "6913d551cc53ac706116c66a",
+                        "stepNextId": "69191d500549529378569c45",
+                        "stepIndex": 8,
+                        "content": "<p>\r\n<style type=\"text/css\"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->\r\n</style>\r\n<em><strong>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>Most ______ people have no idea what it&rsquo;s like to be famous.</p>\r\n",
+                        "options": [
+                            {
+                                "content": "<p>ordinary</p>",
+                                "idOption": 0,
+                                "isAnswer": true,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>medium</p>",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>typical</p>",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>usual</p>",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 0,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "userOptionId": [],
+                        "userOptionText": [],
+                        "numberQuestion": 151328,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            0
+                        ],
+                        "answerFreeText": [],
+                        "explain": "<p>usual (adj): thông thường (dùng với sự việc)</p>\r\n\r\n<p>ordinary (adj): bình thường</p>\r\n\r\n<p>typical (adj): đặc trưng</p>\r\n\r\n<p>medium (adj): ở mức trung bình (thường liên quan tới kích thước)</p>\r\n\r\n<p>Tạm dịch: Hầu hết mọi người đều không biết cảm giác nổi tiếng là sao.</p>\r\n",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.0,
+                        "maxScore": 0.3333,
+                        "percentRight": 0.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "69191d500549529378569c45",
+                        "testId": "6913d551cc53ac706116c66a",
+                        "stepNextId": "69191d500549529378569c46",
+                        "stepIndex": 9,
+                        "content": "<p><em><strong>Mark the letter A, B, C, or D o indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>With a little hard work, I&rsquo;m sure you will ______ a lot this year.</p>\r\n",
+                        "options": [
+                            {
+                                "content": "<p>reach</p>",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>succeed</p>",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>qualify</p>",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>achieve</p>",
+                                "idOption": 3,
+                                "isAnswer": true,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 0,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "userOptionId": [],
+                        "userOptionText": [],
+                        "numberQuestion": 151329,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            3
+                        ],
+                        "answerFreeText": [],
+                        "explain": "<p>reach, succeed và qualify thường không dùng với &lsquo;a lot&rsquo;</p>\r\n\r\n<p>achieve a lot + noun: tiến bộ nhiều, đạt nhiều&nbsp;</p>\r\n\r\n<p>Tạm dịch: Cùng với một chút chăm chỉ, tôi tin bạn sẽ đạt được nhiều thứ trong năm nay.</p>\r\n",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.0,
+                        "maxScore": 0.3333,
+                        "percentRight": 0.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "69191d500549529378569c46",
+                        "testId": "6913d551cc53ac706116c66a",
+                        "stepNextId": "69191d500549529378569c47",
+                        "stepIndex": 10,
+                        "content": "<p><em><strong>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>Who ______ you how to cook so well?</p>\r\n",
+                        "options": [
+                            {
+                                "content": "<p>taught</p>",
+                                "idOption": 0,
+                                "isAnswer": true,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>learnt</p>",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>explained</p>",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>made</p>",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 0,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "userOptionId": [],
+                        "userOptionText": [],
+                        "numberQuestion": 151330,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            0
+                        ],
+                        "answerFreeText": [],
+                        "explain": "<p>teach sb (how) to do st : dạy ai đó làm gì</p>\r\n\r\n<p>learn st/to do st/ how to do st : học cái gì để&nbsp;làm gì</p>\r\n\r\n<p>make sb do st : bắt ai đó làm gì</p>\r\n\r\n<p>explain to sb about st : giải thích cho ai cái gì</p>\r\n\r\n<p>Tạm dịch: Ai đã chỉ bạn nấu ăn ngon thế vậy?</p>\r\n",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.0,
+                        "maxScore": 0.3333,
+                        "percentRight": 0.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "69191d500549529378569c47",
+                        "testId": "6913d551cc53ac706116c66a",
+                        "stepNextId": "69191d500549529378569c48",
+                        "stepIndex": 11,
+                        "content": "<p><em><strong>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>My great grandfather is over 95 and is ______ pretty poor health these days.</p>\r\n",
+                        "options": [
+                            {
+                                "content": "<p>in</p>",
+                                "idOption": 0,
+                                "isAnswer": true,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>with</p>",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>of</p>",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>on</p>",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 0,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "userOptionId": [],
+                        "userOptionText": [],
+                        "numberQuestion": 151334,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            0
+                        ],
+                        "answerFreeText": [],
+                        "explain": "<p>Cụm cố định về tình trạng&nbsp;sức khỏe: be in + adj + health (condition)</p>\r\n\r\n<p>Tạm dịch: Cụ&nbsp;tôi đã hơn 95 tuổi và những ngày này sức khỏe của cụ không được tốt lắm.</p>\r\n",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.0,
+                        "maxScore": 0.3333,
+                        "percentRight": 0.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "69191d500549529378569c48",
+                        "testId": "6913d551cc53ac706116c66a",
+                        "stepNextId": "69191d500549529378569c49",
+                        "stepIndex": 12,
+                        "content": "<p><em><strong>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>Is Angela married or ______? I don&rsquo;t want to ask her.</p>\r\n",
+                        "options": [
+                            {
+                                "content": "<p>spinster</p>",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>alone</p>",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>single</p>",
+                                "idOption": 2,
+                                "isAnswer": true,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>bachelor</p>",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 0,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "userOptionId": [],
+                        "userOptionText": [],
+                        "numberQuestion": 151335,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            2
+                        ],
+                        "answerFreeText": [],
+                        "explain": "<p>nói về tình trạng hôn nhân thì có married (đã kết hôn) và single (còn độc thân)</p>\r\n\r\n<p>Tạm dịch: Angela đã kết hôn hay còn độc thân? Tôi không muốn hỏi trực tiếp cô ấy.</p>\r\n",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.0,
+                        "maxScore": 0.3333,
+                        "percentRight": 0.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "69191d500549529378569c49",
+                        "testId": "6913d551cc53ac706116c66a",
+                        "stepNextId": "69191d500549529378569c4a",
+                        "stepIndex": 13,
+                        "content": "<p><em><strong>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>English people sometimes named their children after one of their friends or even distant ______.</p>\r\n",
+                        "options": [
+                            {
+                                "content": "<p>members</p>",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>family</p>",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>brothers</p>",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>relations</p>",
+                                "idOption": 3,
+                                "isAnswer": true,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 0,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "userOptionId": [],
+                        "userOptionText": [],
+                        "numberQuestion": 151336,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            3
+                        ],
+                        "answerFreeText": [],
+                        "explain": "<p>cụm cố định &lsquo;distant relations&rsquo;: họ hàng xa</p>\r\n\r\n<p>Tạm dịch: Người Anh đôi khi đặt tên con theo bạn bè&nbsp;hoặc một người họ hàng xa của mình.</p>\r\n",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.0,
+                        "maxScore": 0.3333,
+                        "percentRight": 0.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "69191d500549529378569c4a",
+                        "testId": "6913d551cc53ac706116c66a",
+                        "stepNextId": "69191d500549529378569c4b",
+                        "stepIndex": 14,
+                        "content": "<p><em><strong>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>You can&rsquo;t tell what someone is like just from their ______.</p>\r\n",
+                        "options": [
+                            {
+                                "content": "<p>character</p>",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>appearance</p>",
+                                "idOption": 1,
+                                "isAnswer": true,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>looking</p>",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>personality</p>",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 0,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "userOptionId": [],
+                        "userOptionText": [],
+                        "numberQuestion": 151337,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            1
+                        ],
+                        "answerFreeText": [],
+                        "explain": "<p>looking (adj): nhìn giống với</p>\r\n\r\n<p>appearance (n): ngoại hình</p>\r\n\r\n<p>character (n): nhân vật, tính cách</p>\r\n\r\n<p>personality (n): tính cách</p>\r\n\r\n<p>Tạm dịch: Bạn không thể nào biết một người là như thế nào nếu chỉ nhìn vào ngoại hình của họ.</p>\r\n",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.0,
+                        "maxScore": 0.3333,
+                        "percentRight": 0.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "69191d500549529378569c4b",
+                        "testId": "6913d551cc53ac706116c66a",
+                        "stepNextId": "69191d500549529378569c4c",
+                        "stepIndex": 15,
+                        "content": "<p><em><strong>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>That singer tells stories about her childhood in her ______.</p>\r\n",
+                        "options": [
+                            {
+                                "content": "<p>textbook</p>",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>achievement</p>",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>dictionary</p>",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>autobiography</p>",
+                                "idOption": 3,
+                                "isAnswer": true,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 0,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "userOptionId": [],
+                        "userOptionText": [],
+                        "numberQuestion": 151338,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            3
+                        ],
+                        "answerFreeText": [],
+                        "explain": "<p>dictionary (n): từ điển</p>\r\n\r\n<p>textbook (n): giáo trình</p>\r\n\r\n<p>autobiography (n): tự truyện</p>\r\n\r\n<p>achievement (n): thành tựu</p>\r\n\r\n<p>Tạm dịch: Nữ ca sĩ ấy đã kể về thời thơ ấu trong cuốn tự truyện của mình.</p>\r\n",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.0,
+                        "maxScore": 0.3333,
+                        "percentRight": 0.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "69191d500549529378569c4c",
+                        "testId": "6913d551cc53ac706116c66a",
+                        "stepNextId": "69191d500549529378569c4d",
+                        "stepIndex": 16,
+                        "content": "<p><em><strong>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>This picture is considered as his greatest ______. It is so sophisticated and it was recently sold for a million pounds!</p>\r\n",
+                        "options": [
+                            {
+                                "content": "<p>job</p>",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>work</p>",
+                                "idOption": 1,
+                                "isAnswer": true,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>masterpiece</p>",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>paper</p>",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 0,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "userOptionId": [],
+                        "userOptionText": [],
+                        "numberQuestion": 151339,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            1
+                        ],
+                        "answerFreeText": [],
+                        "explain": "<p>work (n): việc làm</p>\r\n\r\n<p>masterpiece (n): kiệt tác =&gt; bản thân từ này đã mang nghĩa vĩ đại nên không đi với &lsquo;great/greatest&rsquo;</p>\r\n\r\n<p>paper (n) : tờ giấy =&gt; không hợp nghĩa</p>\r\n\r\n<p>job (n): công việc =&gt; không hợp nghĩa</p>\r\n\r\n<p>Tạm dịch: Bức tranh này được coi là bức họa tuyệt vời nhất của ông ấy. Đó là một bức họa tinh xảo và mới được bán với giá cả triệu bảng gần đây.</p>\r\n",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.0,
+                        "maxScore": 0.3333,
+                        "percentRight": 0.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "69191d500549529378569c4d",
+                        "testId": "6913d551cc53ac706116c66a",
+                        "stepNextId": "69191d500549529378569c4e",
+                        "stepIndex": 17,
+                        "content": "<p><em><strong>Complete the sentence&nbsp;with the correct form of the word in capitals. Choose the best option A, B, C or D.</strong></em></p>\r\n\r\n<p>Einstein&rsquo;s ______ went unnoticed at school. (BRILLIANT)</p>\r\n",
+                        "options": [
+                            {
+                                "content": "<p>brilliant</p>",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>brilliantly</p>",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>brilliantion</p>",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>brilliance</p>",
+                                "idOption": 3,
+                                "isAnswer": true,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 0,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "userOptionId": [],
+                        "userOptionText": [],
+                        "numberQuestion": 151340,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            3
+                        ],
+                        "answerFreeText": [],
+                        "explain": "<p>Einstein&rsquo;s là sở hữu cách =&gt; cần danh từ chỉ sự vật ở phía sau : &#39;S + noun</p>\r\n\r\n<p>Từ &#39;brilliation&#39; không tồn tại</p>\r\n\r\n<p>brilliant (adj) : thông minh</p>\r\n\r\n<p>brilliantly (adv) : một cách thông minh</p>\r\n\r\n<p>brilliance (n) : sự thông tuệ, thông minh</p>\r\n\r\n<p>Tạm dịch: Trí thông minh của Einstein đã không được để tâm&nbsp;ở trường học.</p>\r\n",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.0,
+                        "maxScore": 0.3333,
+                        "percentRight": 0.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "69191d500549529378569c4e",
+                        "testId": "6913d551cc53ac706116c66a",
+                        "stepNextId": "69191d500549529378569c4f",
+                        "stepIndex": 18,
+                        "content": "<p><em><strong>Complete the sentences with the correct form of the word in capitals. Choose the best option A, B, C or D.</strong></em></p>\r\n\r\n<p>I&rsquo;ve got enormous ______&nbsp;for Jennie; she&rsquo;s achieved such a lot in such a short space of time. (ADMIRE)</p>\r\n",
+                        "options": [
+                            {
+                                "content": "<p>admire</p>",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>admirator</p>",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>admirable</p>",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>admiration</p>",
+                                "idOption": 3,
+                                "isAnswer": true,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 0,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "userOptionId": [],
+                        "userOptionText": [],
+                        "numberQuestion": 151341,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            3
+                        ],
+                        "answerFreeText": [],
+                        "explain": "<p>sau &lsquo;have got&rsquo; và tính từ &lsquo;enormous&rsquo; = &gt; cần một danh từ</p>\r\n\r\n<p>admire là động từ, admirable là tính từ, admirator không tồn tại</p>\r\n\r\n<p>admiration là danh từ: sự ngưỡng mộ</p>\r\n\r\n<p>Tạm dịch: Tôi có một sự ngưỡng mộ lớn dành cho Jennie; cô ấy đã đạt được nhiều thứ chỉ trong một khoảng thời gian ngắn.</p>\r\n",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.0,
+                        "maxScore": 0.3333,
+                        "percentRight": 0.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "69191d500549529378569c4f",
+                        "testId": "6913d551cc53ac706116c66a",
+                        "stepNextId": "69191d500549529378569c50",
+                        "stepIndex": 19,
+                        "content": "<p><em><strong>Complete the sentence&nbsp;with the correct form of the word in capitals. Choose the best option A, B, C or D.</strong></em></p>\r\n\r\n<p>My sister has a great ______ and everyone likes her. (PERSON)</p>\r\n",
+                        "options": [
+                            {
+                                "content": "<p>personal</p>",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>personality</p>",
+                                "idOption": 1,
+                                "isAnswer": true,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>people</p>",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>person</p>",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 0,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "userOptionId": [],
+                        "userOptionText": [],
+                        "numberQuestion": 151342,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            1
+                        ],
+                        "answerFreeText": [],
+                        "explain": "<p>&nbsp;&lsquo; a/an+ adj + noun&rsquo; =&gt; cần một danh từ</p>\r\n\r\n<p>person (n):&nbsp;người</p>\r\n\r\n<p>people (n): người (số nhiều)</p>\r\n\r\n<p>personal (adj): cá nhân</p>\r\n\r\n<p>personality (n): tính cách =&gt; hợp nghĩa trong câu</p>\r\n\r\n<p>Tạm dịch: Chị gái tôi có một tính cách tuyệt vời và mọi người đều yêu quý chị ấy.</p>\r\n",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.0,
+                        "maxScore": 0.3333,
+                        "percentRight": 0.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "69191d500549529378569c50",
+                        "testId": "6913d551cc53ac706116c66a",
+                        "stepNextId": "69191d500549529378569c51",
+                        "stepIndex": 20,
+                        "content": "<p><em><strong>Complete the sentence&nbsp;with the correct form of the word in capitals. Choose the best option A, B, C or D.</strong></em></p>\r\n\r\n<p>Ben seemed ______ to talk about his argument with Brad but the teacher eventually got the fact. (WILLING)</p>\r\n",
+                        "options": [
+                            {
+                                "content": "<p>inwilling</p>",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>willing</p>",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>unwilling</p>",
+                                "idOption": 2,
+                                "isAnswer": true,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>willingness</p>",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 0,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "userOptionId": [],
+                        "userOptionText": [],
+                        "numberQuestion": 151343,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            2
+                        ],
+                        "answerFreeText": [],
+                        "explain": "<p>Seem + adj&nbsp;=&gt; loại willingness (n)</p>\r\n\r\n<p>Từ&nbsp;&#39;inwilling&#39;&nbsp;không tồn tại</p>\r\n\r\n<p>willing (adj): tình nguyện</p>\r\n\r\n<p>unwilling (adj): không muốn, không tình nguyện =&gt; phù hợp với ngữ cảnh&nbsp;của câu</p>\r\n\r\n<p>Tạm dịch: Ben có vẻ không tình nguyện&nbsp;để nói về cuộc cãi vã với Brad&nbsp;nhưng cuối cùng thì giáo viên vẫn biết được sự thật.</p>\r\n",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.0,
+                        "maxScore": 0.3333,
+                        "percentRight": 0.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "69191d500549529378569c51",
+                        "testId": "6913d551cc53ac706116c66a",
+                        "stepNextId": "69191d500549529378569c52",
+                        "stepIndex": 21,
+                        "content": "<p><em><strong>Complete the sentence&nbsp;with the correct form of the word in capitals. Choose the best option A, B, C or D.</strong></em></p>\r\n\r\n<p>My mother blames my sister&rsquo;s ______ on being single, but I don&rsquo;t think so. (HAPPY)</p>\r\n",
+                        "options": [
+                            {
+                                "content": "<p>unhappiness</p>",
+                                "idOption": 0,
+                                "isAnswer": true,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>unhappy</p>",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>happiness</p>",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>happy</p>",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 0,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "userOptionId": [],
+                        "userOptionText": [],
+                        "numberQuestion": 220002,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            0
+                        ],
+                        "answerFreeText": [],
+                        "explain": "<p>my sister&rsquo;s là dạng sở hữu =&gt; cần một danh từ</p>\r\n\r\n<p>=&gt; loại happy (adj)&nbsp;và unhappy (adj)</p>\r\n\r\n<p>blame: đổ lỗi =&gt; cần danh từ mang tính tiêu cực</p>\r\n\r\n<p>=&gt; chọn unhappiness (n) : sự bất hạnh</p>\r\n\r\n<p>Tạm dịch: Mẹ tôi đổi lỗi cho sự bất hạnh của chị tôi vì chị&nbsp;độc thân, nhưng tôi lại không nghĩ như vậy.</p>\r\n",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.0,
+                        "maxScore": 0.3333,
+                        "percentRight": 0.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "69191d500549529378569c52",
+                        "testId": "6913d551cc53ac706116c66a",
+                        "stepNextId": "69191d500549529378569c53",
+                        "stepIndex": 22,
+                        "content": "<p><em><strong>Complete the sentences with the correct form of the word in capitals. Choose the best option A, B, C or D.</strong></em></p>\r\n\r\n<p>I understand that being chosen to be in the team is a real ______.&nbsp;(ACHIEVE)</p>\r\n",
+                        "options": [
+                            {
+                                "content": "<p>achieve</p>",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>achiever</p>",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>achievement</p>",
+                                "idOption": 2,
+                                "isAnswer": true,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>achieving</p>",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 0,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "userOptionId": [],
+                        "userOptionText": [],
+                        "numberQuestion": 151345,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            2
+                        ],
+                        "answerFreeText": [],
+                        "explain": "<p>Có &lsquo;a&rsquo; =&gt; cần một danh từ =&gt; loại achieve&nbsp;vì là động từ</p>\r\n\r\n<p>achieving là danh động từ, không đi với mạo từ</p>\r\n\r\n<p>achivement là danh từ chỉ sự việc: thành tích, thành tựu</p>\r\n\r\n<p>Tạm dịch: Tôi hiểu rằng việc được chọn vào đội là một thành tựu thực sự.</p>\r\n",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.0,
+                        "maxScore": 0.3333,
+                        "percentRight": 0.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "69191d500549529378569c53",
+                        "testId": "6913d551cc53ac706116c66a",
+                        "stepNextId": "69191d500549529378569c54",
+                        "stepIndex": 23,
+                        "content": "<p><em><strong>Complete the sentence&nbsp;with the correct form of the word in capitals. Choose the best option A, B, C or D.</strong></em></p>\r\n\r\n<p>They were ______ to agree and in the end the wife left without saying goodbye. (ABILITY)</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+                        "options": [
+                            {
+                                "content": "<p>able</p>",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>unable</p>",
+                                "idOption": 1,
+                                "isAnswer": true,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>ability</p>",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>ably</p>",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 0,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "userOptionId": [],
+                        "userOptionText": [],
+                        "numberQuestion": 151347,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            1
+                        ],
+                        "answerFreeText": [],
+                        "explain": "<p>&#39;to be + adj + to V&rsquo; =&gt; loại ability (n) và ably (adj)</p>\r\n\r\n<p>able (adj):&nbsp;có thể</p>\r\n\r\n<p>&nbsp;unable (adj): không thể</p>\r\n\r\n<p>Tạm dịch: Họ không thể hòa thuận và cuối cùng người vợ đã bỏ đi mà không nói lời tạm biệt.</p>\r\n",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.0,
+                        "maxScore": 0.3333,
+                        "percentRight": 0.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "69191d500549529378569c54",
+                        "testId": "6913d551cc53ac706116c66a",
+                        "stepNextId": "69191d500549529378569c55",
+                        "stepIndex": 24,
+                        "content": "<p><em><strong>Complete the sentence&nbsp;with the correct form of the word in capitals. Choose the best option A, B, C or D.</strong></em></p>\r\n\r\n<p>I don&rsquo;t care much about dressing up but my sister is very ______ (FASHION)</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+                        "options": [
+                            {
+                                "content": "<p>fashionable</p>",
+                                "idOption": 0,
+                                "isAnswer": true,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>unfashionable</p>",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>fashioned</p>",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>old-fashioned</p>",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 0,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "userOptionId": [],
+                        "userOptionText": [],
+                        "numberQuestion": 220004,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            0
+                        ],
+                        "answerFreeText": [],
+                        "explain": "<p>fashioned (adj): theo hình thức nào đó, được tạo dáng</p>\r\n\r\n<p>fashionable (adj): đúng mốt, hợp thời trang</p>\r\n\r\n<p>unfashionable (adj): không đúng mốt</p>\r\n\r\n<p>old-fashioned (adj): lỗi mốt</p>\r\n\r\n<p>Tạm dịch: Tôi thì không quan tâm lắm tới việc ăn diện nhưng chị tôi thì ăn mặc rất hợp thời trang.</p>\r\n",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.0,
+                        "maxScore": 0.3333,
+                        "percentRight": 0.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "69191d500549529378569c55",
+                        "testId": "6913d551cc53ac706116c66a",
+                        "stepNextId": "69191d500549529378569c56",
+                        "stepIndex": 25,
+                        "content": "<p><em><strong>Mark the letter A, B, C, or Dto indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p><br />\r\nSome millionaires have decided to make donations to many ______ organizations.</p>\r\n",
+                        "options": [
+                            {
+                                "content": "<p>charities</p>",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>charitable</p>",
+                                "idOption": 1,
+                                "isAnswer": true,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>charity</p>",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>charitably</p>",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 0,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "userOptionId": [],
+                        "userOptionText": [],
+                        "numberQuestion": 151355,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            1
+                        ],
+                        "answerFreeText": [],
+                        "explain": "<p>charitable organization: tổ chức từ thiện&nbsp;</p>\r\n\r\n<p>cụm danh từ: adj + Noun&nbsp;</p>\r\n\r\n<p>Tạm dịch: Nhiều triệu phú đã quyết định ủng hộ cho nhiều&nbsp;tổ chức từ thiện.</p>\r\n",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.0,
+                        "maxScore": 0.3333,
+                        "percentRight": 0.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "69191d500549529378569c56",
+                        "testId": "6913d551cc53ac706116c66a",
+                        "stepNextId": "69191d500549529378569c57",
+                        "stepIndex": 26,
+                        "content": "<p>\r\n<style type=\"text/css\"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->\r\n</style>\r\n<em><strong>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>Albert Einstein is among the scientists who ______ a great impact on modern physics.</p>\r\n",
+                        "options": [
+                            {
+                                "content": "<p>appreciate</p>",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>do</p>",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>feel</p>",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>have</p>",
+                                "idOption": 3,
+                                "isAnswer": true,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 0,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "userOptionId": [],
+                        "userOptionText": [],
+                        "numberQuestion": 151361,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            3
+                        ],
+                        "answerFreeText": [],
+                        "explain": "<p>have an impact on: có ảnh hưởng tới</p>\r\n\r\n<p>Tạm dịch: Albert Einstein là một trong những nhà khoa học có ảnh hưởng lớn tới vật lý hiện đại.&nbsp;</p>\r\n",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.0,
+                        "maxScore": 0.3333,
+                        "percentRight": 0.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "69191d500549529378569c57",
+                        "testId": "6913d551cc53ac706116c66a",
+                        "stepNextId": "69191d500549529378569c58",
+                        "stepIndex": 27,
+                        "content": "<p>\r\n<style type=\"text/css\"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->\r\n</style>\r\n<em><strong>Mark the letter A, B, C, or D sheet to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>iPhone X is the latest ______&nbsp;in the field of smartphone design of Apple until now.</p>\r\n",
+                        "options": [
+                            {
+                                "content": "<p>creation</p>",
+                                "idOption": 0,
+                                "isAnswer": true,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>creativity</p>",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>creator</p>",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>create</p>",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 0,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "userOptionId": [],
+                        "userOptionText": [],
+                        "numberQuestion": 220013,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            0
+                        ],
+                        "answerFreeText": [],
+                        "explain": "<p>creator (n): người sáng tạo, đấng tạo hóa</p>\r\n\r\n<p>create (v): tạo ra&nbsp;</p>\r\n\r\n<p>creativity (n): sự sáng tạo, trí sáng tạo</p>\r\n\r\n<p>creation (n): sự tạo ra, sản phẩm được tạo ra</p>\r\n\r\n<p>Tạm dịch: Iphone X là sản phẩm sáng tạo mới nhất của Apple trong lĩnh vực thiết kế điện thoại thông minh cho tới thời điểm hiện tại.</p>\r\n",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.0,
+                        "maxScore": 0.3333,
+                        "percentRight": 0.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "69191d500549529378569c58",
+                        "testId": "6913d551cc53ac706116c66a",
+                        "stepNextId": "69191d500549529378569c59",
+                        "stepIndex": 28,
+                        "content": "<p><em><strong>Mark the letter A, B, C, or D to indicate the word&nbsp;CLOSEST in meaning to the underlined word&nbsp;in the following sentence.</strong></em></p>\r\n\r\n<p>I can&rsquo;t understand the paintings of this artist because they are so <strong><ins>sophisticated</ins></strong>.</p>\r\n",
+                        "options": [
+                            {
+                                "content": "<p>old-fashioned</p>",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>basic</p>",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>primitive</p>",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>complex</p>",
+                                "idOption": 3,
+                                "isAnswer": true,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 0,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "userOptionId": [],
+                        "userOptionText": [],
+                        "numberQuestion": 151367,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            3
+                        ],
+                        "answerFreeText": [],
+                        "explain": "<p>sophisticated (adj): cầu kì</p>\r\n\r\n<p>old-fashioned (adj): lỗi thời</p>\r\n\r\n<p>basic (adj): đơn giản, cơ bản</p>\r\n\r\n<p>primitive (adj): thô sơ, nguyên thủy</p>\r\n\r\n<p>complex (adj): phức tạp</p>\r\n\r\n<p>Tạm dịch: Tôi chẳng thể nào hiểu nổi những bức tranh của vị&nbsp;họa sĩ này&nbsp;bởi chúng quá là phức tạp.</p>\r\n",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.0,
+                        "maxScore": 0.3333,
+                        "percentRight": 0.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "69191d500549529378569c59",
+                        "testId": "6913d551cc53ac706116c66a",
+                        "stepNextId": "",
+                        "stepIndex": 29,
+                        "content": "<p><em><strong>Mark the letter A, B, C, or D to indicate the word&nbsp;CLOSEST in meaning to the underlined word in the following sentence.</strong></em></p>\r\n\r\n<p>Young people in my country often <strong><ins>idolize</ins></strong> businesspeople and celebrities who can earn money easily.</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+                        "options": [
+                            {
+                                "content": "<p>impress</p>",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>detest</p>",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>hate</p>",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "<p>worship</p>",
+                                "idOption": 3,
+                                "isAnswer": true,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 0,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "userOptionId": [],
+                        "userOptionText": [],
+                        "numberQuestion": 220015,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            3
+                        ],
+                        "answerFreeText": [],
+                        "explain": "<p>idolize (v): thần tượng hóa</p>\r\n\r\n<p>hate (v): ghét</p>\r\n\r\n<p>impress (v): gây ấn tượng</p>\r\n\r\n<p>worship (v): tôn thờ</p>\r\n\r\n<p>detest (v): ghê tởm</p>\r\n\r\n<p>Tạm dịch: Người trẻ nước tôi thường tôn thờ những doanh nhân hay người nổi tiếng mà có thể kiếm tiền dễ dàng.</p>\r\n",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.0,
+                        "maxScore": 0.3333,
+                        "percentRight": 0.0
+                    },
+                    "typeData": 0
+                }
+            ],
+            "listAnswer": [],
+            "listMarking": [],
+            "isAccess": true,
+            "startTimeAssign": 1762908000,
+            "endTimeAssign": 1763253600,
+            "totalQuestion": 30,
+            "totalCorrect": 1,
+            "totalPartialCorrect": 0,
+            "totalIncorrect": 29,
+            "totalDoing": 30,
+            "totalScore": 0.33,
+            "duration": 30,
+            "speed": 1.0,
+            "accuracy": 3.33,
+            "percentComplete": 100,
+            "timeStart": 0,
+            "timeSubmit": 0,
+            "totalPoint": 0.0,
+            "point": 0.0,
+            "status": 4,
+            "totalScoreEssay": 0.0,
+            "totalScoreMultipleChoice": 0.33,
+            "totalRetries": 0
+        }
+    },
+    "totalRecords": 0,
+    "elapsed": 0.02,
+    "timeServer": 1763284616,
+    "timeResp": "16/11/2025 16:16",
+    "message": "Thành công",
+    "status": 1
+}

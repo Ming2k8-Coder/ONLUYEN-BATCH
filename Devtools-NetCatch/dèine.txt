@@ -1,0 +1,4 @@
+status:
+0 waiting | 1 doing | 2 grading | 3 done | 7 expired
+"assignmentContentType":
+0 From Bank | 4 Teacher Convert

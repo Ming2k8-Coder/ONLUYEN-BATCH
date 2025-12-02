@@ -1,0 +1,1342 @@
+{
+    "success": true,
+    "data": {
+        "timeServer": 1763219195,
+        "assignId": "6913d551cc53ac706116c66a",
+        "assignmentContentType": 0,
+        "assignmentType": 0,
+        "currentIdQuestion": "69189419483adffa02498030",
+        "data": [
+            {
+                "typeData": 0,
+                "dataStandard": {
+                    "stepId": "69189419483adffa02498030",
+                    "stepNextId": "69189419483adffa02498031",
+                    "stepIndex": 0,
+                    "content": "<p>\r\n<style type=\"text/css\"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->\r\n</style>\r\n<em><strong>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>Many people never forget the first person they fall ______ love ______.</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+                    "options": [
+                        {
+                            "content": "<p>in - to</p>",
+                            "idOption": 0,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>in - for</p>",
+                            "idOption": 1,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>in - with</p>",
+                            "idOption": 2,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>to - for</p>",
+                            "idOption": 3,
+                            "isAnswer": false,
+                            "userSelected": false
+                        }
+                    ],
+                    "statusStep": 0,
+                    "indexMaterial": -1,
+                    "typeAnswer": 0,
+                    "userOptionId": [],
+                    "numberQuestion": 151320,
+                    "template": 0,
+                    "typeView": 0,
+                    "maxScore": 0.3333
+                }
+            },
+            {
+                "typeData": 0,
+                "dataStandard": {
+                    "stepId": "69189419483adffa02498031",
+                    "stepNextId": "69189419483adffa02498032",
+                    "stepIndex": 1,
+                    "content": "<p>\r\n<style type=\"text/css\"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->\r\n</style>\r\n<em><strong>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>My parents ______ engaged when they ______ both 25 years old.</p>\r\n",
+                    "options": [
+                        {
+                            "content": "<p>got - were</p>",
+                            "idOption": 0,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>get - are</p>",
+                            "idOption": 1,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>got - became</p>",
+                            "idOption": 2,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>were - got</p>",
+                            "idOption": 3,
+                            "isAnswer": false,
+                            "userSelected": false
+                        }
+                    ],
+                    "statusStep": 0,
+                    "indexMaterial": -1,
+                    "typeAnswer": 0,
+                    "userOptionId": [],
+                    "numberQuestion": 151321,
+                    "template": 0,
+                    "typeView": 0,
+                    "maxScore": 0.3333
+                }
+            },
+            {
+                "typeData": 0,
+                "dataStandard": {
+                    "stepId": "69189419483adffa02498032",
+                    "stepNextId": "69189419483adffa02498033",
+                    "stepIndex": 2,
+                    "content": "<p>\r\n<style type=\"text/css\"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->\r\n</style>\r\n<em><strong>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>I was born in Vietnam but I ______ in France.</p>\r\n",
+                    "options": [
+                        {
+                            "content": "<p>raised</p>",
+                            "idOption": 0,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>grew up</p>",
+                            "idOption": 1,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>rose</p>",
+                            "idOption": 2,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>brought up</p>",
+                            "idOption": 3,
+                            "isAnswer": false,
+                            "userSelected": false
+                        }
+                    ],
+                    "statusStep": 0,
+                    "indexMaterial": -1,
+                    "typeAnswer": 0,
+                    "userOptionId": [],
+                    "numberQuestion": 151322,
+                    "template": 0,
+                    "typeView": 0,
+                    "maxScore": 0.3333
+                }
+            },
+            {
+                "typeData": 0,
+                "dataStandard": {
+                    "stepId": "69189419483adffa02498033",
+                    "stepNextId": "69189419483adffa02498034",
+                    "stepIndex": 3,
+                    "content": "<p>\r\n<style type=\"text/css\"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->\r\n</style>\r\n<em><strong>Mark the letter A, B, C, or D&nbsp;to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>Jane and Brian finally got married three years after their ______.</p>\r\n",
+                    "options": [
+                        {
+                            "content": "<p>divorce</p>",
+                            "idOption": 0,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>separation</p>",
+                            "idOption": 1,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>engagement</p>",
+                            "idOption": 2,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>proposal</p>",
+                            "idOption": 3,
+                            "isAnswer": false,
+                            "userSelected": false
+                        }
+                    ],
+                    "statusStep": 0,
+                    "indexMaterial": -1,
+                    "typeAnswer": 0,
+                    "userOptionId": [],
+                    "numberQuestion": 151323,
+                    "template": 0,
+                    "typeView": 0,
+                    "maxScore": 0.3333
+                }
+            },
+            {
+                "typeData": 0,
+                "dataStandard": {
+                    "stepId": "69189419483adffa02498034",
+                    "stepNextId": "69189419483adffa02498035",
+                    "stepIndex": 4,
+                    "content": "<p><em><strong>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>I got to ______ Anne two years ago when we studied our master program together.</p>\r\n",
+                    "options": [
+                        {
+                            "content": "<p>sympathize</p>",
+                            "idOption": 0,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>introduce</p>",
+                            "idOption": 1,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>know</p>",
+                            "idOption": 2,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>meet</p>",
+                            "idOption": 3,
+                            "isAnswer": false,
+                            "userSelected": false
+                        }
+                    ],
+                    "statusStep": 0,
+                    "indexMaterial": -1,
+                    "typeAnswer": 0,
+                    "userOptionId": [],
+                    "numberQuestion": 151324,
+                    "template": 0,
+                    "typeView": 0,
+                    "maxScore": 0.3333
+                }
+            },
+            {
+                "typeData": 0,
+                "dataStandard": {
+                    "stepId": "69189419483adffa02498035",
+                    "stepNextId": "69189419483adffa02498036",
+                    "stepIndex": 5,
+                    "content": "<p><em><strong>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>Parents have to try hard to understand the younger ______.</p>\r\n",
+                    "options": [
+                        {
+                            "content": "<p>adolescents</p>",
+                            "idOption": 0,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>generation</p>",
+                            "idOption": 1,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>people</p>",
+                            "idOption": 2,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>teenagers</p>",
+                            "idOption": 3,
+                            "isAnswer": false,
+                            "userSelected": false
+                        }
+                    ],
+                    "statusStep": 0,
+                    "indexMaterial": -1,
+                    "typeAnswer": 0,
+                    "userOptionId": [],
+                    "numberQuestion": 151325,
+                    "template": 0,
+                    "typeView": 0,
+                    "maxScore": 0.3333
+                }
+            },
+            {
+                "typeData": 0,
+                "dataStandard": {
+                    "stepId": "69189419483adffa02498036",
+                    "stepNextId": "69189419483adffa02498037",
+                    "stepIndex": 6,
+                    "content": "<p><em><strong>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>Stephanie seems to be very ______ with her classmates.</p>\r\n",
+                    "options": [
+                        {
+                            "content": "<p>known</p>",
+                            "idOption": 0,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>famous</p>",
+                            "idOption": 1,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>likable</p>",
+                            "idOption": 2,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>popular</p>",
+                            "idOption": 3,
+                            "isAnswer": false,
+                            "userSelected": false
+                        }
+                    ],
+                    "statusStep": 0,
+                    "indexMaterial": -1,
+                    "typeAnswer": 0,
+                    "userOptionId": [],
+                    "numberQuestion": 151326,
+                    "template": 0,
+                    "typeView": 0,
+                    "maxScore": 0.3333
+                }
+            },
+            {
+                "typeData": 0,
+                "dataStandard": {
+                    "stepId": "69189419483adffa02498037",
+                    "stepNextId": "69189419483adffa02498038",
+                    "stepIndex": 7,
+                    "content": "<p><em><strong>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>My dad says he once met Taylor Swift when she was still ______.</p>\r\n",
+                    "options": [
+                        {
+                            "content": "<p>unknown</p>",
+                            "idOption": 0,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>hidden</p>",
+                            "idOption": 1,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>infamous</p>",
+                            "idOption": 2,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>unrelated</p>",
+                            "idOption": 3,
+                            "isAnswer": false,
+                            "userSelected": false
+                        }
+                    ],
+                    "statusStep": 0,
+                    "indexMaterial": -1,
+                    "typeAnswer": 0,
+                    "userOptionId": [],
+                    "numberQuestion": 151327,
+                    "template": 0,
+                    "typeView": 0,
+                    "maxScore": 0.3333
+                }
+            },
+            {
+                "typeData": 0,
+                "dataStandard": {
+                    "stepId": "69189419483adffa02498038",
+                    "stepNextId": "69189419483adffa02498039",
+                    "stepIndex": 8,
+                    "content": "<p>\r\n<style type=\"text/css\"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->\r\n</style>\r\n<em><strong>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>Most ______ people have no idea what it&rsquo;s like to be famous.</p>\r\n",
+                    "options": [
+                        {
+                            "content": "<p>usual</p>",
+                            "idOption": 0,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>medium</p>",
+                            "idOption": 1,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>ordinary</p>",
+                            "idOption": 2,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>typical</p>",
+                            "idOption": 3,
+                            "isAnswer": false,
+                            "userSelected": false
+                        }
+                    ],
+                    "statusStep": 0,
+                    "indexMaterial": -1,
+                    "typeAnswer": 0,
+                    "userOptionId": [],
+                    "numberQuestion": 151328,
+                    "template": 0,
+                    "typeView": 0,
+                    "maxScore": 0.3333
+                }
+            },
+            {
+                "typeData": 0,
+                "dataStandard": {
+                    "stepId": "69189419483adffa02498039",
+                    "stepNextId": "69189419483adffa0249803a",
+                    "stepIndex": 9,
+                    "content": "<p><em><strong>Mark the letter A, B, C, or D o indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>With a little hard work, I&rsquo;m sure you will ______ a lot this year.</p>\r\n",
+                    "options": [
+                        {
+                            "content": "<p>achieve</p>",
+                            "idOption": 0,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>reach</p>",
+                            "idOption": 1,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>succeed</p>",
+                            "idOption": 2,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>qualify</p>",
+                            "idOption": 3,
+                            "isAnswer": false,
+                            "userSelected": false
+                        }
+                    ],
+                    "statusStep": 0,
+                    "indexMaterial": -1,
+                    "typeAnswer": 0,
+                    "userOptionId": [],
+                    "numberQuestion": 151329,
+                    "template": 0,
+                    "typeView": 0,
+                    "maxScore": 0.3333
+                }
+            },
+            {
+                "typeData": 0,
+                "dataStandard": {
+                    "stepId": "69189419483adffa0249803a",
+                    "stepNextId": "69189419483adffa0249803b",
+                    "stepIndex": 10,
+                    "content": "<p><em><strong>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>Who ______ you how to cook so well?</p>\r\n",
+                    "options": [
+                        {
+                            "content": "<p>learnt</p>",
+                            "idOption": 0,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>made</p>",
+                            "idOption": 1,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>explained</p>",
+                            "idOption": 2,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>taught</p>",
+                            "idOption": 3,
+                            "isAnswer": false,
+                            "userSelected": false
+                        }
+                    ],
+                    "statusStep": 0,
+                    "indexMaterial": -1,
+                    "typeAnswer": 0,
+                    "userOptionId": [],
+                    "numberQuestion": 151330,
+                    "template": 0,
+                    "typeView": 0,
+                    "maxScore": 0.3333
+                }
+            },
+            {
+                "typeData": 0,
+                "dataStandard": {
+                    "stepId": "69189419483adffa0249803b",
+                    "stepNextId": "69189419483adffa0249803c",
+                    "stepIndex": 11,
+                    "content": "<p><em><strong>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>My great grandfather is over 95 and is ______ pretty poor health these days.</p>\r\n",
+                    "options": [
+                        {
+                            "content": "<p>on</p>",
+                            "idOption": 0,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>with</p>",
+                            "idOption": 1,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>in</p>",
+                            "idOption": 2,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>of</p>",
+                            "idOption": 3,
+                            "isAnswer": false,
+                            "userSelected": false
+                        }
+                    ],
+                    "statusStep": 0,
+                    "indexMaterial": -1,
+                    "typeAnswer": 0,
+                    "userOptionId": [],
+                    "numberQuestion": 151334,
+                    "template": 0,
+                    "typeView": 0,
+                    "maxScore": 0.3333
+                }
+            },
+            {
+                "typeData": 0,
+                "dataStandard": {
+                    "stepId": "69189419483adffa0249803c",
+                    "stepNextId": "69189419483adffa0249803d",
+                    "stepIndex": 12,
+                    "content": "<p><em><strong>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>Is Angela married or ______? I don&rsquo;t want to ask her.</p>\r\n",
+                    "options": [
+                        {
+                            "content": "<p>single</p>",
+                            "idOption": 0,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>spinster</p>",
+                            "idOption": 1,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>alone</p>",
+                            "idOption": 2,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>bachelor</p>",
+                            "idOption": 3,
+                            "isAnswer": false,
+                            "userSelected": false
+                        }
+                    ],
+                    "statusStep": 0,
+                    "indexMaterial": -1,
+                    "typeAnswer": 0,
+                    "userOptionId": [],
+                    "numberQuestion": 151335,
+                    "template": 0,
+                    "typeView": 0,
+                    "maxScore": 0.3333
+                }
+            },
+            {
+                "typeData": 0,
+                "dataStandard": {
+                    "stepId": "69189419483adffa0249803d",
+                    "stepNextId": "69189419483adffa0249803e",
+                    "stepIndex": 13,
+                    "content": "<p><em><strong>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>English people sometimes named their children after one of their friends or even distant ______.</p>\r\n",
+                    "options": [
+                        {
+                            "content": "<p>brothers</p>",
+                            "idOption": 0,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>members</p>",
+                            "idOption": 1,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>family</p>",
+                            "idOption": 2,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>relations</p>",
+                            "idOption": 3,
+                            "isAnswer": false,
+                            "userSelected": false
+                        }
+                    ],
+                    "statusStep": 0,
+                    "indexMaterial": -1,
+                    "typeAnswer": 0,
+                    "userOptionId": [],
+                    "numberQuestion": 151336,
+                    "template": 0,
+                    "typeView": 0,
+                    "maxScore": 0.3333
+                }
+            },
+            {
+                "typeData": 0,
+                "dataStandard": {
+                    "stepId": "69189419483adffa0249803e",
+                    "stepNextId": "69189419483adffa0249803f",
+                    "stepIndex": 14,
+                    "content": "<p><em><strong>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>You can&rsquo;t tell what someone is like just from their ______.</p>\r\n",
+                    "options": [
+                        {
+                            "content": "<p>personality</p>",
+                            "idOption": 0,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>looking</p>",
+                            "idOption": 1,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>appearance</p>",
+                            "idOption": 2,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>character</p>",
+                            "idOption": 3,
+                            "isAnswer": false,
+                            "userSelected": false
+                        }
+                    ],
+                    "statusStep": 0,
+                    "indexMaterial": -1,
+                    "typeAnswer": 0,
+                    "userOptionId": [],
+                    "numberQuestion": 151337,
+                    "template": 0,
+                    "typeView": 0,
+                    "maxScore": 0.3333
+                }
+            },
+            {
+                "typeData": 0,
+                "dataStandard": {
+                    "stepId": "69189419483adffa0249803f",
+                    "stepNextId": "69189419483adffa02498040",
+                    "stepIndex": 15,
+                    "content": "<p><em><strong>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>That singer tells stories about her childhood in her ______.</p>\r\n",
+                    "options": [
+                        {
+                            "content": "<p>achievement</p>",
+                            "idOption": 0,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>autobiography</p>",
+                            "idOption": 1,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>dictionary</p>",
+                            "idOption": 2,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>textbook</p>",
+                            "idOption": 3,
+                            "isAnswer": false,
+                            "userSelected": false
+                        }
+                    ],
+                    "statusStep": 0,
+                    "indexMaterial": -1,
+                    "typeAnswer": 0,
+                    "userOptionId": [],
+                    "numberQuestion": 151338,
+                    "template": 0,
+                    "typeView": 0,
+                    "maxScore": 0.3333
+                }
+            },
+            {
+                "typeData": 0,
+                "dataStandard": {
+                    "stepId": "69189419483adffa02498040",
+                    "stepNextId": "69189419483adffa02498041",
+                    "stepIndex": 16,
+                    "content": "<p><em><strong>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>This picture is considered as his greatest ______. It is so sophisticated and it was recently sold for a million pounds!</p>\r\n",
+                    "options": [
+                        {
+                            "content": "<p>work</p>",
+                            "idOption": 0,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>job</p>",
+                            "idOption": 1,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>paper</p>",
+                            "idOption": 2,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>masterpiece</p>",
+                            "idOption": 3,
+                            "isAnswer": false,
+                            "userSelected": false
+                        }
+                    ],
+                    "statusStep": 0,
+                    "indexMaterial": -1,
+                    "typeAnswer": 0,
+                    "userOptionId": [],
+                    "numberQuestion": 151339,
+                    "template": 0,
+                    "typeView": 0,
+                    "maxScore": 0.3333
+                }
+            },
+            {
+                "typeData": 0,
+                "dataStandard": {
+                    "stepId": "69189419483adffa02498041",
+                    "stepNextId": "69189419483adffa02498042",
+                    "stepIndex": 17,
+                    "content": "<p><em><strong>Complete the sentence&nbsp;with the correct form of the word in capitals. Choose the best option A, B, C or D.</strong></em></p>\r\n\r\n<p>Einstein&rsquo;s ______ went unnoticed at school. (BRILLIANT)</p>\r\n",
+                    "options": [
+                        {
+                            "content": "<p>brilliantion</p>",
+                            "idOption": 0,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>brilliant</p>",
+                            "idOption": 1,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>brilliance</p>",
+                            "idOption": 2,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>brilliantly</p>",
+                            "idOption": 3,
+                            "isAnswer": false,
+                            "userSelected": false
+                        }
+                    ],
+                    "statusStep": 0,
+                    "indexMaterial": -1,
+                    "typeAnswer": 0,
+                    "userOptionId": [],
+                    "numberQuestion": 151340,
+                    "template": 0,
+                    "typeView": 0,
+                    "maxScore": 0.3333
+                }
+            },
+            {
+                "typeData": 0,
+                "dataStandard": {
+                    "stepId": "69189419483adffa02498042",
+                    "stepNextId": "69189419483adffa02498043",
+                    "stepIndex": 18,
+                    "content": "<p><em><strong>Complete the sentences with the correct form of the word in capitals. Choose the best option A, B, C or D.</strong></em></p>\r\n\r\n<p>I&rsquo;ve got enormous ______&nbsp;for Jennie; she&rsquo;s achieved such a lot in such a short space of time. (ADMIRE)</p>\r\n",
+                    "options": [
+                        {
+                            "content": "<p>admiration</p>",
+                            "idOption": 0,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>admirable</p>",
+                            "idOption": 1,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>admirator</p>",
+                            "idOption": 2,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>admire</p>",
+                            "idOption": 3,
+                            "isAnswer": false,
+                            "userSelected": false
+                        }
+                    ],
+                    "statusStep": 0,
+                    "indexMaterial": -1,
+                    "typeAnswer": 0,
+                    "userOptionId": [],
+                    "numberQuestion": 151341,
+                    "template": 0,
+                    "typeView": 0,
+                    "maxScore": 0.3333
+                }
+            },
+            {
+                "typeData": 0,
+                "dataStandard": {
+                    "stepId": "69189419483adffa02498043",
+                    "stepNextId": "69189419483adffa02498044",
+                    "stepIndex": 19,
+                    "content": "<p><em><strong>Complete the sentence&nbsp;with the correct form of the word in capitals. Choose the best option A, B, C or D.</strong></em></p>\r\n\r\n<p>My sister has a great ______ and everyone likes her. (PERSON)</p>\r\n",
+                    "options": [
+                        {
+                            "content": "<p>personal</p>",
+                            "idOption": 0,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>personality</p>",
+                            "idOption": 1,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>people</p>",
+                            "idOption": 2,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>person</p>",
+                            "idOption": 3,
+                            "isAnswer": false,
+                            "userSelected": false
+                        }
+                    ],
+                    "statusStep": 0,
+                    "indexMaterial": -1,
+                    "typeAnswer": 0,
+                    "userOptionId": [],
+                    "numberQuestion": 151342,
+                    "template": 0,
+                    "typeView": 0,
+                    "maxScore": 0.3333
+                }
+            },
+            {
+                "typeData": 0,
+                "dataStandard": {
+                    "stepId": "69189419483adffa02498044",
+                    "stepNextId": "69189419483adffa02498045",
+                    "stepIndex": 20,
+                    "content": "<p><em><strong>Complete the sentence&nbsp;with the correct form of the word in capitals. Choose the best option A, B, C or D.</strong></em></p>\r\n\r\n<p>Ben seemed ______ to talk about his argument with Brad but the teacher eventually got the fact. (WILLING)</p>\r\n",
+                    "options": [
+                        {
+                            "content": "<p>willing</p>",
+                            "idOption": 0,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>unwilling</p>",
+                            "idOption": 1,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>inwilling</p>",
+                            "idOption": 2,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>willingness</p>",
+                            "idOption": 3,
+                            "isAnswer": false,
+                            "userSelected": false
+                        }
+                    ],
+                    "statusStep": 0,
+                    "indexMaterial": -1,
+                    "typeAnswer": 0,
+                    "userOptionId": [],
+                    "numberQuestion": 151343,
+                    "template": 0,
+                    "typeView": 0,
+                    "maxScore": 0.3333
+                }
+            },
+            {
+                "typeData": 0,
+                "dataStandard": {
+                    "stepId": "69189419483adffa02498045",
+                    "stepNextId": "69189419483adffa02498046",
+                    "stepIndex": 21,
+                    "content": "<p><em><strong>Complete the sentence&nbsp;with the correct form of the word in capitals. Choose the best option A, B, C or D.</strong></em></p>\r\n\r\n<p>My mother blames my sister&rsquo;s ______ on being single, but I don&rsquo;t think so. (HAPPY)</p>\r\n",
+                    "options": [
+                        {
+                            "content": "<p>unhappy</p>",
+                            "idOption": 0,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>happiness</p>",
+                            "idOption": 1,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>unhappiness</p>",
+                            "idOption": 2,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>happy</p>",
+                            "idOption": 3,
+                            "isAnswer": false,
+                            "userSelected": false
+                        }
+                    ],
+                    "statusStep": 0,
+                    "indexMaterial": -1,
+                    "typeAnswer": 0,
+                    "userOptionId": [],
+                    "numberQuestion": 220002,
+                    "template": 0,
+                    "typeView": 0,
+                    "maxScore": 0.3333
+                }
+            },
+            {
+                "typeData": 0,
+                "dataStandard": {
+                    "stepId": "69189419483adffa02498046",
+                    "stepNextId": "69189419483adffa02498047",
+                    "stepIndex": 22,
+                    "content": "<p><em><strong>Complete the sentences with the correct form of the word in capitals. Choose the best option A, B, C or D.</strong></em></p>\r\n\r\n<p>I understand that being chosen to be in the team is a real ______.&nbsp;(ACHIEVE)</p>\r\n",
+                    "options": [
+                        {
+                            "content": "<p>achieving</p>",
+                            "idOption": 0,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>achieve</p>",
+                            "idOption": 1,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>achievement</p>",
+                            "idOption": 2,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>achiever</p>",
+                            "idOption": 3,
+                            "isAnswer": false,
+                            "userSelected": false
+                        }
+                    ],
+                    "statusStep": 0,
+                    "indexMaterial": -1,
+                    "typeAnswer": 0,
+                    "userOptionId": [],
+                    "numberQuestion": 151345,
+                    "template": 0,
+                    "typeView": 0,
+                    "maxScore": 0.3333
+                }
+            },
+            {
+                "typeData": 0,
+                "dataStandard": {
+                    "stepId": "69189419483adffa02498047",
+                    "stepNextId": "69189419483adffa02498048",
+                    "stepIndex": 23,
+                    "content": "<p><em><strong>Complete the sentence&nbsp;with the correct form of the word in capitals. Choose the best option A, B, C or D.</strong></em></p>\r\n\r\n<p>They were ______ to agree and in the end the wife left without saying goodbye. (ABILITY)</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+                    "options": [
+                        {
+                            "content": "<p>unable</p>",
+                            "idOption": 0,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>ably</p>",
+                            "idOption": 1,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>able</p>",
+                            "idOption": 2,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>ability</p>",
+                            "idOption": 3,
+                            "isAnswer": false,
+                            "userSelected": false
+                        }
+                    ],
+                    "statusStep": 0,
+                    "indexMaterial": -1,
+                    "typeAnswer": 0,
+                    "userOptionId": [],
+                    "numberQuestion": 151347,
+                    "template": 0,
+                    "typeView": 0,
+                    "maxScore": 0.3333
+                }
+            },
+            {
+                "typeData": 0,
+                "dataStandard": {
+                    "stepId": "69189419483adffa02498048",
+                    "stepNextId": "69189419483adffa02498049",
+                    "stepIndex": 24,
+                    "content": "<p><em><strong>Complete the sentence&nbsp;with the correct form of the word in capitals. Choose the best option A, B, C or D.</strong></em></p>\r\n\r\n<p>I don&rsquo;t care much about dressing up but my sister is very ______ (FASHION)</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+                    "options": [
+                        {
+                            "content": "<p>fashionable</p>",
+                            "idOption": 0,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>fashioned</p>",
+                            "idOption": 1,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>unfashionable</p>",
+                            "idOption": 2,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>old-fashioned</p>",
+                            "idOption": 3,
+                            "isAnswer": false,
+                            "userSelected": false
+                        }
+                    ],
+                    "statusStep": 0,
+                    "indexMaterial": -1,
+                    "typeAnswer": 0,
+                    "userOptionId": [],
+                    "numberQuestion": 220004,
+                    "template": 0,
+                    "typeView": 0,
+                    "maxScore": 0.3333
+                }
+            },
+            {
+                "typeData": 0,
+                "dataStandard": {
+                    "stepId": "69189419483adffa02498049",
+                    "stepNextId": "69189419483adffa0249804a",
+                    "stepIndex": 25,
+                    "content": "<p><em><strong>Mark the letter A, B, C, or Dto indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p><br />\r\nSome millionaires have decided to make donations to many ______ organizations.</p>\r\n",
+                    "options": [
+                        {
+                            "content": "<p>charity</p>",
+                            "idOption": 0,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>charitable</p>",
+                            "idOption": 1,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>charitably</p>",
+                            "idOption": 2,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>charities</p>",
+                            "idOption": 3,
+                            "isAnswer": false,
+                            "userSelected": false
+                        }
+                    ],
+                    "statusStep": 0,
+                    "indexMaterial": -1,
+                    "typeAnswer": 0,
+                    "userOptionId": [],
+                    "numberQuestion": 151355,
+                    "template": 0,
+                    "typeView": 0,
+                    "maxScore": 0.3333
+                }
+            },
+            {
+                "typeData": 0,
+                "dataStandard": {
+                    "stepId": "69189419483adffa0249804a",
+                    "stepNextId": "69189419483adffa0249804b",
+                    "stepIndex": 26,
+                    "content": "<p>\r\n<style type=\"text/css\"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->\r\n</style>\r\n<em><strong>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>Albert Einstein is among the scientists who ______ a great impact on modern physics.</p>\r\n",
+                    "options": [
+                        {
+                            "content": "<p>appreciate</p>",
+                            "idOption": 0,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>feel</p>",
+                            "idOption": 1,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>have</p>",
+                            "idOption": 2,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>do</p>",
+                            "idOption": 3,
+                            "isAnswer": false,
+                            "userSelected": false
+                        }
+                    ],
+                    "statusStep": 0,
+                    "indexMaterial": -1,
+                    "typeAnswer": 0,
+                    "userOptionId": [],
+                    "numberQuestion": 151361,
+                    "template": 0,
+                    "typeView": 0,
+                    "maxScore": 0.3333
+                }
+            },
+            {
+                "typeData": 0,
+                "dataStandard": {
+                    "stepId": "69189419483adffa0249804b",
+                    "stepNextId": "69189419483adffa0249804c",
+                    "stepIndex": 27,
+                    "content": "<p>\r\n<style type=\"text/css\"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->\r\n</style>\r\n<em><strong>Mark the letter A, B, C, or D sheet to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>iPhone X is the latest ______&nbsp;in the field of smartphone design of Apple until now.</p>\r\n",
+                    "options": [
+                        {
+                            "content": "<p>create</p>",
+                            "idOption": 0,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>creativity</p>",
+                            "idOption": 1,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>creator</p>",
+                            "idOption": 2,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>creation</p>",
+                            "idOption": 3,
+                            "isAnswer": false,
+                            "userSelected": false
+                        }
+                    ],
+                    "statusStep": 0,
+                    "indexMaterial": -1,
+                    "typeAnswer": 0,
+                    "userOptionId": [],
+                    "numberQuestion": 220013,
+                    "template": 0,
+                    "typeView": 0,
+                    "maxScore": 0.3333
+                }
+            },
+            {
+                "typeData": 0,
+                "dataStandard": {
+                    "stepId": "69189419483adffa0249804c",
+                    "stepNextId": "69189419483adffa0249804d",
+                    "stepIndex": 28,
+                    "content": "<p><em><strong>Mark the letter A, B, C, or D to indicate the word&nbsp;CLOSEST in meaning to the underlined word&nbsp;in the following sentence.</strong></em></p>\r\n\r\n<p>I can&rsquo;t understand the paintings of this artist because they are so <strong><ins>sophisticated</ins></strong>.</p>\r\n",
+                    "options": [
+                        {
+                            "content": "<p>old-fashioned</p>",
+                            "idOption": 0,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>primitive</p>",
+                            "idOption": 1,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>basic</p>",
+                            "idOption": 2,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>complex</p>",
+                            "idOption": 3,
+                            "isAnswer": false,
+                            "userSelected": false
+                        }
+                    ],
+                    "statusStep": 0,
+                    "indexMaterial": -1,
+                    "typeAnswer": 0,
+                    "userOptionId": [],
+                    "numberQuestion": 151367,
+                    "template": 0,
+                    "typeView": 0,
+                    "maxScore": 0.3333
+                }
+            },
+            {
+                "typeData": 0,
+                "dataStandard": {
+                    "stepId": "69189419483adffa0249804d",
+                    "stepNextId": "",
+                    "stepIndex": 29,
+                    "content": "<p><em><strong>Mark the letter A, B, C, or D to indicate the word&nbsp;CLOSEST in meaning to the underlined word in the following sentence.</strong></em></p>\r\n\r\n<p>Young people in my country often <strong><ins>idolize</ins></strong> businesspeople and celebrities who can earn money easily.</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+                    "options": [
+                        {
+                            "content": "<p>detest</p>",
+                            "idOption": 0,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>hate</p>",
+                            "idOption": 1,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>impress</p>",
+                            "idOption": 2,
+                            "isAnswer": false,
+                            "userSelected": false
+                        },
+                        {
+                            "content": "<p>worship</p>",
+                            "idOption": 3,
+                            "isAnswer": false,
+                            "userSelected": false
+                        }
+                    ],
+                    "statusStep": 0,
+                    "indexMaterial": -1,
+                    "typeAnswer": 0,
+                    "userOptionId": [],
+                    "numberQuestion": 220015,
+                    "template": 0,
+                    "typeView": 0,
+                    "maxScore": 0.3333
+                }
+            }
+        ],
+        "duration": 0,
+        "firstIdQuestion": "69189419483adffa02498030",
+        "gradeCode": [
+            "C12"
+        ],
+        "listFile": [],
+        "answerUrlPremade": "https://assignments.onluyen.vn/assign/6913d551cc53ac706116c66a/66e7d7978e3d6ea4dfde1cfa/69189419483adffa0249802d.json",
+        "logId": "69189419483adffa0249802d",
+        "maxScore": 10.0,
+        "maxScoreEssay": 0.0,
+        "maxScoreMultipleChoice": 10.0,
+        "name": "Vocabulary: Các từ vựng dùng để nói về cuộc đời của một người (trung bình - khá)",
+        "permissionViewResult": 0,
+        "retryable": false,
+        "startTime": 1763218457,
+        "endTime": 1763253600,
+        "subjectCode": [
+            "ANH"
+        ],
+        "totalCorrect": 0,
+        "totalIncorrect": 0,
+        "totalQuestion": 30,
+        "totalQuestionView": 0,
+        "totalScore": 0.0,
+        "totalScoreEssay": 0.0,
+        "totalScoreMultipleChoice": 0.0,
+        "statusOrigin": 2,
+        "totalTimeDoing": 35143,
+        "isExplain": false,
+        "listAnswer": [],
+        "status": 1,
+        "preSignedUrlAnswer": "https://onluyen-assignment-submission.s3.ap-southeast-1.amazonaws.com/assign/6913d551cc53ac706116c66a/66e7d7978e3d6ea4dfde1cfa/69189419483adffa0249802d.json?X-Amz-Expires=10860&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARNHFJRUSPDX4IUU6%2F20251115%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20251115T150635Z&X-Amz-SignedHeaders=content-type%3Bhost&X-Amz-Signature=946c5b0a3c7da214c5b48649423e23a9c11ef71b24dc702e1211f8c5e8a899df",
+        "listSectionName": [],
+        "isAccess": true
+    },
+    "totalRecords": 0,
+    "elapsed": 0.02,
+    "timeServer": 1763219195,
+    "timeResp": "15/11/2025 22:06",
+    "message": "Thành công",
+    "status": 1
+}

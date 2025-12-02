@@ -1,0 +1,1800 @@
+{
+    "success": true,
+    "data": {
+        "accuracy": 96.43,
+        "answerUrlPremade": "https://assignments.onluyen.vn/assign/68f0b711f56366aff9c9938e/66e7d7948e3d6ea4dfde1cd2/68f85758821f47a09e524dfd.json",
+        "assignId": "68f0b711f56366aff9c9938e",
+        "startTimeAssign": 1760606400,
+        "endTimeAssign": 1761148800,
+        "retryable": false,
+        "assignmentContentType": 11,
+        "assignmentType": 0,
+        "currentIdQuestion": "68f85758821f47a09e524e00",
+        "duration": 0,
+        "firstIdQuestion": "68f85758821f47a09e524e00",
+        "isExplain": false,
+        "listFile": [],
+        "logId": "68f85758821f47a09e524dfd",
+        "maxScore": 0.0,
+        "maxScoreEssay": 0.0,
+        "maxScoreMultipleChoice": 0.0,
+        "name": "ĐỀ LUYỆN GIỮA KÌ 01",
+        "percentComplete": 100,
+        "permissionViewResult": 0,
+        "serverTime": 1763287408,
+        "speed": 0.0444,
+        "startTime": 1761105752,
+        "submitTime": 1761106383,
+        "status": 3,
+        "totalCorrect": 27,
+        "totalIncorrect": 1,
+        "totalPartialCorrect": 0,
+        "totalQuestion": 28,
+        "totalQuestionView": 0,
+        "totalScore": 9.0,
+        "totalScoreEssay": 0.0,
+        "totalScoreMultipleChoice": 9.0,
+        "totalTimeDoing": 631,
+        "isAccess": true,
+        "dataDetail": {
+            "id": "68f85758821f47a09e524dfd",
+            "name": "ĐỀ LUYỆN GIỮA KÌ 01",
+            "listSectionName": [],
+            "startTime": 1761105752,
+            "endTime": 1761148800,
+            "submitTime": 1761106383,
+            "assignmentType": 0,
+            "assignmentContentType": 11,
+            "listFile": [],
+            "answerUrlPremade": "https://assignments.onluyen.vn/assign/68f0b711f56366aff9c9938e/66e7d7948e3d6ea4dfde1cd2/68f85758821f47a09e524dfd.json",
+            "isExplain": false,
+            "data": [
+                {
+                    "dataStandard": {
+                        "stepId": "68f85758821f47a09e524e00",
+                        "testId": "68f0b711f56366aff9c9938e",
+                        "stepNextId": "68f85758821f47a09e524e01",
+                        "stepIndex": 0,
+                        "content": "<p>Sự kiện đánh dấu tổ chức Liên hợp quốc chính thức được thành lập là các nước thành viên đã</p>",
+                        "options": [
+                            {
+                                "content": "soạn thảo quy chế hiến chương.",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "phê chuẩn Hiến chương Liên hợp quốc.",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": true
+                            },
+                            {
+                                "content": "thông qua dự thảo hiến chương.",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "soạn thảo Hiến chương Liên hợp quốc,",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 1,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "rightAnswer": true,
+                        "userOptionId": [
+                            1
+                        ],
+                        "userOptionText": [],
+                        "numberQuestion": 12,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [],
+                        "answerFreeText": [],
+                        "explain": "",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.25,
+                        "maxScore": 0.25,
+                        "percentRight": 100.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "68f85758821f47a09e524e01",
+                        "testId": "68f0b711f56366aff9c9938e",
+                        "stepNextId": "68f85758821f47a09e524e02",
+                        "stepIndex": 1,
+                        "content": "<p>“Xây dựng một tổ chức hợp tác liên chính phủ có liên kết sâu rộng dựa trên cơ sở pháp lí là Hiến chương ASEAN” là</p>",
+                        "options": [
+                            {
+                                "content": "mục tiêu tổng quát của Cộng đồng ASEAN.",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": true
+                            },
+                            {
+                                "content": "cơ chế hoạt động của cộng đồng ASEAN.",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "nguyên tắc thực hiện của Cộng đồng ASEAN.",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "kế hoạch của Cộng đồng ASEAN.",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 1,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "rightAnswer": true,
+                        "userOptionId": [
+                            0
+                        ],
+                        "userOptionText": [],
+                        "numberQuestion": 5,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [],
+                        "answerFreeText": [],
+                        "explain": "",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.25,
+                        "maxScore": 0.25,
+                        "percentRight": 100.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "68f85758821f47a09e524e02",
+                        "testId": "68f0b711f56366aff9c9938e",
+                        "stepNextId": "68f85758821f47a09e524e03",
+                        "stepIndex": 2,
+                        "content": "<p>Ý tưởng xây dựng Cộng đồng ASEAN lần đầu tiên được đề ra trong văn kiện</p>",
+                        "options": [
+                            {
+                                "content": "Hiệp ước Ba-li (1976).",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Tuyên bố Cua-la Lăm-pơ (1971).",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Tuyên Bố Băng Cốc (1967).",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": true
+                            },
+                            {
+                                "content": "Hiến chương ASEAN (2007).",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 1,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "rightAnswer": true,
+                        "userOptionId": [
+                            2
+                        ],
+                        "userOptionText": [],
+                        "numberQuestion": 15,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [],
+                        "answerFreeText": [],
+                        "explain": "",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.25,
+                        "maxScore": 0.25,
+                        "percentRight": 100.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "68f85758821f47a09e524e03",
+                        "testId": "68f0b711f56366aff9c9938e",
+                        "stepNextId": "68f85758821f47a09e524e04",
+                        "stepIndex": 3,
+                        "content": "<p>Sự kiện nào sau đây nằm trong quá trình thành lập Liên Hợp Quốc?</p>",
+                        "options": [
+                            {
+                                "content": "Hội nghị Giơ-ne-vơ năm 1954",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Hội nghị Tê-hê-ran năm 1943",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": true
+                            },
+                            {
+                                "content": "Hội nghị Muy-ních năm 1938",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Hội nghị Bàn Môn Điếm năm 1953",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 1,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "rightAnswer": true,
+                        "userOptionId": [
+                            1
+                        ],
+                        "userOptionText": [],
+                        "numberQuestion": 1,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [],
+                        "answerFreeText": [],
+                        "explain": "",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.25,
+                        "maxScore": 0.25,
+                        "percentRight": 100.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "68f85758821f47a09e524e04",
+                        "testId": "68f0b711f56366aff9c9938e",
+                        "stepNextId": "68f85758821f47a09e524e05",
+                        "stepIndex": 4,
+                        "content": "<p>Sự kiện đánh dấu bước ngoặt của ASEAN thể hiện cam kết cao nhất của các nước thành viên nhằm xây dựng hòa bình hữu nghị, hợp tác khu vực là</p>",
+                        "options": [
+                            {
+                                "content": "Hiến chương ASEAN 2007.",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Hiệp ước Bali 1976.",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": true
+                            },
+                            {
+                                "content": "Tuyên bố Cua-la Lăm-pơ.",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Tuyên bố Băng Cốc 1967.",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 1,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "rightAnswer": true,
+                        "userOptionId": [
+                            1
+                        ],
+                        "userOptionText": [],
+                        "numberQuestion": 20,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [],
+                        "answerFreeText": [],
+                        "explain": "",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.25,
+                        "maxScore": 0.25,
+                        "percentRight": 100.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "68f85758821f47a09e524e05",
+                        "testId": "68f0b711f56366aff9c9938e",
+                        "stepNextId": "68f85758821f47a09e524e06",
+                        "stepIndex": 5,
+                        "content": "<p>Trong bối cảnh quốc tế đang diễn ra theo nhiều xu thế mới với những diễn biến phức tạp, chủ trương nhất quán của Đảng và Nhà nước Việt Nam là</p>",
+                        "options": [
+                            {
+                                "content": "hội nhập quốc tế để thu hút vốn đầu tư bên ngoài bằng mọi giá.",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "tham gia liên minh chính trị với Mỹ và các nước phương Tây.",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "chủ động nắm bắt thời cơ, đi tắt đón đầu để vượt qua các thách thức.",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": true
+                            },
+                            {
+                                "content": "chủ động kết nối các cường quốc để nâng tầm chiến lược.",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 1,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "rightAnswer": true,
+                        "userOptionId": [
+                            2
+                        ],
+                        "userOptionText": [],
+                        "numberQuestion": 14,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [],
+                        "answerFreeText": [],
+                        "explain": "",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.25,
+                        "maxScore": 0.25,
+                        "percentRight": 100.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "68f85758821f47a09e524e06",
+                        "testId": "68f0b711f56366aff9c9938e",
+                        "stepNextId": "68f85758821f47a09e524e07",
+                        "stepIndex": 6,
+                        "content": "<p>Chiến tranh lạnh kết thúc, các quốc gia trên thế giới đều điều chỉnh chiến lược phát triển tập trung vào kinh tế</p><p><strong>vì lý do nào sau đây?</strong></p>",
+                        "options": [
+                            {
+                                "content": "Đây là nguồn vốn quan trọng để khắc phục hậu quả chiến tranh.",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Sự phát triển kinh tế là yếu tố quyết định để phát triển chính trị.",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Kinh tế là nền tảng để nâng cao vị thế quốc gia trên trường quốc tế.",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": true
+                            },
+                            {
+                                "content": "Nhu cầu giải quyết vấn đề xoá đói giảm nghèo đòi hỏi nguồn lực lớn.",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 1,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "rightAnswer": true,
+                        "userOptionId": [
+                            2
+                        ],
+                        "userOptionText": [],
+                        "numberQuestion": 3,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [],
+                        "answerFreeText": [],
+                        "explain": "",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.25,
+                        "maxScore": 0.25,
+                        "percentRight": 100.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "68f85758821f47a09e524e07",
+                        "testId": "68f0b711f56366aff9c9938e",
+                        "stepNextId": "68f85758821f47a09e524e08",
+                        "stepIndex": 7,
+                        "content": "<p>Việc Việt Nam gia nhập Cộng đồng Kinh tế ASEAN đã tạo ra thời cơ nào sau đây?</p>",
+                        "options": [
+                            {
+                                "content": "Sự cạnh tranh quyết liệt về thị trường tiêu thụ hàng hóa.",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Tạo sức mạnh tập thể xử lý các vấn đề an ninh.",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Nâng cao năng lực và hiệu quả nguồn nhân lực.",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": true
+                            },
+                            {
+                                "content": "Có cơ hội thực hiện các chuẩn mực cao về văn hoá.",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 1,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "rightAnswer": true,
+                        "userOptionId": [
+                            2
+                        ],
+                        "userOptionText": [],
+                        "numberQuestion": 6,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [],
+                        "answerFreeText": [],
+                        "explain": "",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.25,
+                        "maxScore": 0.25,
+                        "percentRight": 100.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "68f85758821f47a09e524e08",
+                        "testId": "68f0b711f56366aff9c9938e",
+                        "stepNextId": "68f85758821f47a09e524e09",
+                        "stepIndex": 8,
+                        "content": "<p>Hiệp hội các quốc gia Đông Nam Á (ASEAN) là một liên minh trên lĩnh vực nào?</p>",
+                        "options": [
+                            {
+                                "content": "Kinh tế, chính trị",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Kinh tế, văn hoá",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": true
+                            },
+                            {
+                                "content": "Kinh tế, quân sự",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Chính trị, quân sự",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 1,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "rightAnswer": true,
+                        "userOptionId": [
+                            1
+                        ],
+                        "userOptionText": [],
+                        "numberQuestion": 23,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [],
+                        "answerFreeText": [],
+                        "explain": "",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.25,
+                        "maxScore": 0.25,
+                        "percentRight": 100.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "68f85758821f47a09e524e09",
+                        "testId": "68f0b711f56366aff9c9938e",
+                        "stepNextId": "68f85758821f47a09e524e0a",
+                        "stepIndex": 9,
+                        "content": "<p>Nội dung nào sau đây không phải là đặc điểm của trật tự đa cực?</p>",
+                        "options": [
+                            {
+                                "content": "Nhiều trung tâm quyền lực chi phối.",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Mỹ và Liên Xô luôn giữ vai trò chi phối quyền lực.",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": true
+                            },
+                            {
+                                "content": "Sức mạnh tổng hợp quốc gia khẳng định vị thế của mỗi cực.",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Không có một trung tâm quyền lực nào thống trị.",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 1,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "rightAnswer": true,
+                        "userOptionId": [
+                            1
+                        ],
+                        "userOptionText": [],
+                        "numberQuestion": 18,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [],
+                        "answerFreeText": [],
+                        "explain": "",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.25,
+                        "maxScore": 0.25,
+                        "percentRight": 100.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "68f85758821f47a09e524e0a",
+                        "testId": "68f0b711f56366aff9c9938e",
+                        "stepNextId": "68f85758821f47a09e524e0b",
+                        "stepIndex": 10,
+                        "content": "<p>Ba nước Đông Dương và Mi-an-ma gia nhập Hiệp hội các quốc gia Đông Nam (ASEAN) trong bối cảnh nào?</p>",
+                        "options": [
+                            {
+                                "content": "Chủ nghĩa xã hội trở thành thế giới hệ thống.",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Bán đảo Triều Tiên được thống nhất trở lại.",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": true
+                            },
+                            {
+                                "content": "Xu thế hòa hoàn Đông – Tây đang diễn ra.",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Xu thế toàn cầu đang diễn ra mạnh mẽ.",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 1,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "rightAnswer": true,
+                        "userOptionId": [
+                            1
+                        ],
+                        "userOptionText": [],
+                        "numberQuestion": 16,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [],
+                        "answerFreeText": [],
+                        "explain": "",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.25,
+                        "maxScore": 0.25,
+                        "percentRight": 100.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "68f85758821f47a09e524e0b",
+                        "testId": "68f0b711f56366aff9c9938e",
+                        "stepNextId": "68f85758821f47a09e524e0c",
+                        "stepIndex": 11,
+                        "content": "<p>Cộng đồng Kinh tế ASEAN (AE C) là khuôn khổ hợp tác nhằm</p>",
+                        "options": [
+                            {
+                                "content": "nâng cao hợp tác chính trị an ninh nội khối.",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "phát triển con người.",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "tăng phúc lợi và bảo hiểm xã hội.",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": true
+                            },
+                            {
+                                "content": "xây dựng một nền tảng sản xuất thống nhất.",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 1,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "rightAnswer": true,
+                        "userOptionId": [
+                            2
+                        ],
+                        "userOptionText": [],
+                        "numberQuestion": 21,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [],
+                        "answerFreeText": [],
+                        "explain": "",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.25,
+                        "maxScore": 0.25,
+                        "percentRight": 100.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "68f85758821f47a09e524e0c",
+                        "testId": "68f0b711f56366aff9c9938e",
+                        "stepNextId": "68f85758821f47a09e524e0d",
+                        "stepIndex": 12,
+                        "content": "<p>Một trong những mục tiêu mang tính toàn cầu của Liên hợp quốc đến năm 2030?</p>",
+                        "options": [
+                            {
+                                "content": "Thiết lập trật tự thế giới đa cực, nhiều trung tâm.",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Hành động ứng phó với biến đổi khí hậu.",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": true
+                            },
+                            {
+                                "content": "Xóa bỏ chế độ phân biệt chủng tộc A-pác-thai.",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Giải phóng các dân tộc thuộc địa khỏi ách thực dân.",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 1,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "rightAnswer": true,
+                        "userOptionId": [
+                            1
+                        ],
+                        "userOptionText": [],
+                        "numberQuestion": 2,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [],
+                        "answerFreeText": [],
+                        "explain": "",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.25,
+                        "maxScore": 0.25,
+                        "percentRight": 100.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "68f85758821f47a09e524e0d",
+                        "testId": "68f0b711f56366aff9c9938e",
+                        "stepNextId": "68f85758821f47a09e524e0e",
+                        "stepIndex": 13,
+                        "content": "<p>Nội dung nào sau đây không phản ánh đúng đặc điểm của trật tự thế giới đa cực trong quan hệ quốc tế?</p>",
+                        "options": [
+                            {
+                                "content": "Là trật tự thế giới mới được hình thành sau khi trật tự hai cực I-an-ta sụp đổ.",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Phản ánh tương quan so sánh lực lượng mới trong quan hệ quốc tế sau chiến tranh lạnh.",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Là trật tư thế giới có sự tham gia của các quốc gia, các trung tâm khác nhau.",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Sự sụp đổ của Liên Xô và Đông Âu là nguyên nhân trực tiếp dẫn đến xu thế đa cực. <strong>ASEAN</strong>",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": true
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 1,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "rightAnswer": true,
+                        "userOptionId": [
+                            3
+                        ],
+                        "userOptionText": [],
+                        "numberQuestion": 4,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [],
+                        "answerFreeText": [],
+                        "explain": "",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.25,
+                        "maxScore": 0.25,
+                        "percentRight": 100.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "68f85758821f47a09e524e0e",
+                        "testId": "68f0b711f56366aff9c9938e",
+                        "stepNextId": "68f85758821f47a09e524e0f",
+                        "stepIndex": 14,
+                        "content": "<p>Xu thế đa cực đem lại thời cơ lớn đối với các nước- trong đó có Việt Nam là</p>",
+                        "options": [
+                            {
+                                "content": "vấn đề an ninh phi truyền thống được đảm bảo.",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "quyền lực mềm của tất cả các quốc gia được khẳng định.",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "tác động của việc ”chọn bên” ngày càng rõ nét.",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "sự hợp tác giải quyết hòa bình các vấn đề toàn cầu.",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": true
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 1,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "rightAnswer": true,
+                        "userOptionId": [
+                            3
+                        ],
+                        "userOptionText": [],
+                        "numberQuestion": 19,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [],
+                        "answerFreeText": [],
+                        "explain": "",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.25,
+                        "maxScore": 0.25,
+                        "percentRight": 100.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "68f85758821f47a09e524e0f",
+                        "testId": "68f0b711f56366aff9c9938e",
+                        "stepNextId": "68f85758821f47a09e524e10",
+                        "stepIndex": 15,
+                        "content": "<p>Thách thức của Cộng đồng ASEAN sau 2015 là</p>",
+                        "options": [
+                            {
+                                "content": "sự cạnh tranh chiến lược giữa các nước lớn ở khu vực.",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "mức độ liên kết giữa thành viên ngày càng chặt chẽ sâu rộng.",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "quá trình kết nạp các thành viên diễn ra lâu dài phức tạp.",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "hàng hóa, dịch vụ, lao động có tay nghề không được lưu chuyển tự do.",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": true
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 1,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "rightAnswer": true,
+                        "userOptionId": [
+                            3
+                        ],
+                        "userOptionText": [],
+                        "numberQuestion": 22,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [],
+                        "answerFreeText": [],
+                        "explain": "",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.25,
+                        "maxScore": 0.25,
+                        "percentRight": 100.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "68f85758821f47a09e524e10",
+                        "testId": "68f0b711f56366aff9c9938e",
+                        "stepNextId": "68f85758821f47a09e524e11",
+                        "stepIndex": 16,
+                        "content": "<p>Sự tồn tại của trật tự hai cực Ianta gắn liền với cuộc chiến tranh nào sau đây?</p>",
+                        "options": [
+                            {
+                                "content": "Chiến tranh triều Tiên ( 1950-1953).",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Chiến tranh lạnh (1947-1989).",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": true
+                            },
+                            {
+                                "content": "Chiến tranh Mỹ xâm lược Đông Dương.",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Chiến tranh thế giới II (1939-1945).",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 1,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "rightAnswer": true,
+                        "userOptionId": [
+                            1
+                        ],
+                        "userOptionText": [],
+                        "numberQuestion": 17,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [],
+                        "answerFreeText": [],
+                        "explain": "",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.25,
+                        "maxScore": 0.25,
+                        "percentRight": 100.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "68f85758821f47a09e524e11",
+                        "testId": "68f0b711f56366aff9c9938e",
+                        "stepNextId": "68f85758821f47a09e524e12",
+                        "stepIndex": 17,
+                        "content": "<p>Một trong những thành viên sáng lập Hiệp hội các quốc gia Đông Nam Á (ASEAN)?</p>",
+                        "options": [
+                            {
+                                "content": "Thái Lan",
+                                "idOption": 0,
+                                "isAnswer": true,
+                                "userSelected": true
+                            },
+                            {
+                                "content": "Mi-an-ma",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Lào",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Cam-pu-chia",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 1,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "rightAnswer": true,
+                        "userOptionId": [
+                            0
+                        ],
+                        "userOptionText": [],
+                        "numberQuestion": 10,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            0
+                        ],
+                        "answerFreeText": [],
+                        "explain": "",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.25,
+                        "maxScore": 0.25,
+                        "percentRight": 100.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "68f85758821f47a09e524e12",
+                        "testId": "68f0b711f56366aff9c9938e",
+                        "stepNextId": "68f85758821f47a09e524e13",
+                        "stepIndex": 18,
+                        "content": "<p>Hiệp hội các quốc gia Đông Nam Á (ASEAN) được thành lập trong bối cảnh nào ?</p>",
+                        "options": [
+                            {
+                                "content": "Các nước trong khu vực đã hoàn thành công nghiệp hóa đất nước.",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Các nước có độc lập dân tộc nhưng gặp khó khăn trong phát triển.",
+                                "idOption": 1,
+                                "isAnswer": true,
+                                "userSelected": true
+                            },
+                            {
+                                "content": "Nhiều nước Đông Nam Á đã vươn lên trở thành “con rồng” kinh tế.",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Xu thế toàn cầu hóa đã xuất hiện và ngày càng phát triển mạnh mẽ.",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 1,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "rightAnswer": true,
+                        "userOptionId": [
+                            1
+                        ],
+                        "userOptionText": [],
+                        "numberQuestion": 9,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            1
+                        ],
+                        "answerFreeText": [],
+                        "explain": "",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.25,
+                        "maxScore": 0.25,
+                        "percentRight": 100.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "68f85758821f47a09e524e13",
+                        "testId": "68f0b711f56366aff9c9938e",
+                        "stepNextId": "68f85758821f47a09e524e14",
+                        "stepIndex": 19,
+                        "content": "<p>Nội dung nào là một trong những hoạt động nổi bật của Hiệp hội các quốc gia Đông Nam Á (ASEAN) trong giai đoạn 1999 – 2015?</p>",
+                        "options": [
+                            {
+                                "content": "Họp bàn và đã thông quan bản Hiến chương ASEAN.",
+                                "idOption": 0,
+                                "isAnswer": true,
+                                "userSelected": true
+                            },
+                            {
+                                "content": "Hoàn thiện việc kết nạp Đông Ti-mo vào ASEAN.",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Tham gia giải quyết vấn đề hòa bình ở In-đô-nê-xi-a.",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Hoàn thiện cơ cấu tổ chức, nguyên tắc hoạt động.",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 1,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "rightAnswer": true,
+                        "userOptionId": [
+                            0
+                        ],
+                        "userOptionText": [],
+                        "numberQuestion": 11,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            0
+                        ],
+                        "answerFreeText": [],
+                        "explain": "",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.25,
+                        "maxScore": 0.25,
+                        "percentRight": 100.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "68f85758821f47a09e524e14",
+                        "testId": "68f0b711f56366aff9c9938e",
+                        "stepNextId": "68f85758821f47a09e524e15",
+                        "stepIndex": 20,
+                        "content": "<p>Việt Nam đã vận dụng nguyên tắc nào sau đây của Hiến chương Liên hợp quốc để giải quyết vấn đề phức tạp ở Biển Đông hiện nay?</p>",
+                        "options": [
+                            {
+                                "content": "Chủ động thương lượng, nhân nhượng để bảo đảm hòa bình.",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Không cần sự hỗ trợ của các tổ chức ở khu vực và quốc tế.",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Giải quyết các tranh chấp quốc tế bằng biện pháp hòa bình.",
+                                "idOption": 2,
+                                "isAnswer": true,
+                                "userSelected": true
+                            },
+                            {
+                                "content": "Tôn trọng chủ quyền và quyền tự quyết của các nước lớn.",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 1,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "rightAnswer": true,
+                        "userOptionId": [
+                            2
+                        ],
+                        "userOptionText": [],
+                        "numberQuestion": 8,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            2
+                        ],
+                        "answerFreeText": [],
+                        "explain": "",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.25,
+                        "maxScore": 0.25,
+                        "percentRight": 100.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "68f85758821f47a09e524e15",
+                        "testId": "68f0b711f56366aff9c9938e",
+                        "stepNextId": "68f85758821f47a09e524e16",
+                        "stepIndex": 21,
+                        "content": "<p>Sự kiện nào sau đây diễn ra trong thời kỳ Chiến tranh lạnh (1947 – 1989)?</p>",
+                        "options": [
+                            {
+                                "content": "Chiến tranh thế giới thứ hai bùng nổ.",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Chiến tranh thế giới thứ nhất kết thúc.",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Tổ chức NATO được thành lập.",
+                                "idOption": 2,
+                                "isAnswer": true,
+                                "userSelected": true
+                            },
+                            {
+                                "content": "Hệ thống Vécxai - Oasinhtơn được thiết lập.",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 1,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "rightAnswer": true,
+                        "userOptionId": [
+                            2
+                        ],
+                        "userOptionText": [],
+                        "numberQuestion": 24,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            2
+                        ],
+                        "answerFreeText": [],
+                        "explain": "",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.25,
+                        "maxScore": 0.25,
+                        "percentRight": 100.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "68f85758821f47a09e524e16",
+                        "testId": "68f0b711f56366aff9c9938e",
+                        "stepNextId": "68f85758821f47a09e524e17",
+                        "stepIndex": 22,
+                        "content": "<p>Nhân tố nào đóng vai trò quyết định để các cường quốc tham gia xác lập trật tự thế giới mới sau Chiến tranh lạnh?</p>",
+                        "options": [
+                            {
+                                "content": "Là 1 trong 5 cường quốc của Hội đồng Bảo an Liên hợp quốc.",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Sức mạnh quân sự của quốc gia với sức mạnh quân sự hậu phương.",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Sức mạnh tổng hợp của quốc gia, trong đó kinh tế vẫn là trụ cột.",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Sự ra đời và ngày càng mở rộng của các tổ chức liên kết khu vực.",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": true
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 1,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "rightAnswer": true,
+                        "userOptionId": [
+                            3
+                        ],
+                        "userOptionText": [],
+                        "numberQuestion": 13,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [],
+                        "answerFreeText": [],
+                        "explain": "",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.25,
+                        "maxScore": 0.25,
+                        "percentRight": 100.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "68f85758821f47a09e524e17",
+                        "testId": "68f0b711f56366aff9c9938e",
+                        "stepNextId": "68f85758821f47a09e524e18",
+                        "stepIndex": 23,
+                        "content": "<p>Nội dung nào là yếu tố quyết định dẫn đến trật tự thế giới hai cực I-an-ta sụp đổ?</p>",
+                        "options": [
+                            {
+                                "content": "Chủ nghĩa xã hội ở Liên Xô lâm vào khủng hoảng và tan rã.",
+                                "idOption": 0,
+                                "isAnswer": true,
+                                "userSelected": true
+                            },
+                            {
+                                "content": "Tác động của cuộc Cách mạng công nghiệp lần thứ ba.",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Liên Xô và Mỹ bị suy giảm vị thế do phải chạy đua vũ trang.",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Sự vươn lên mạnh mẽ của các nước và tổ chức quốc tế.",
+                                "idOption": 3,
+                                "isAnswer": false,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 1,
+                        "indexMaterial": -1,
+                        "typeAnswer": 0,
+                        "rightAnswer": true,
+                        "userOptionId": [
+                            0
+                        ],
+                        "userOptionText": [],
+                        "numberQuestion": 7,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [
+                            0
+                        ],
+                        "answerFreeText": [],
+                        "explain": "",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.25,
+                        "maxScore": 0.25,
+                        "percentRight": 100.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "68f85758821f47a09e524e18",
+                        "testId": "68f0b711f56366aff9c9938e",
+                        "stepNextId": "68f85758821f47a09e524e19",
+                        "stepIndex": 24,
+                        "content": "<p>Cho đoạn tư liệu sau đây:</p><p><i>“… Chúng ta đang đứng trước ngưỡng cửa của một kỉ nguyên hoàn toàn mới trong quan hệ Mỹ-Xô. Chúng ta hoàn toàn có thể đóng góp theo cách riêng của mình nhằm vượt qua sự chia rẽ ở châu Âu và kết thúc cuộc đối đầu quân sự tại đó”</i></p><p>         (Phát biểu của Tổng thống Mỹ G. But-sơ trong cuộc gặp với Tổng Bí thư Đảng Cộng sản Liên Xô M. Goóc-ba-chốp, tháng 12-1989)</p><p><u><strong>a.</strong></u> Tháng 12-1989, tại đảo Man-ta (Địa Trung Hải) Tổng thống Mỹ G. But-sơ và Tổng Bí thư Đảng Cộng sản Liên Xô M. Goóc-ba-chốp đã tuyên bố Chiến tranh lạnh chấm dứt</p><p><strong>b. </strong>“Chiến tranh lạnh” kết thúc là nguyên nhân quan trọng dẫn đến sự sụp đổ của trật tự hai cực Ianta.</p><p>c. “Chiến tranh lạnh” kết thúc dẫn đến Việt Nam và Mĩ bình thường hóa trong quan hệ ngoại giao ngay sau đó.</p><p><strong>d.</strong> Chiến tranh lạnh kết thúc đã đánh dấu sự chấm dứt hoàn toàn những xung đột, tranh chấp khu vực và quốc tế, mở ra một thời đại mới – thời đại hòa bình, hợp tác và phát triển</p>",
+                        "options": [],
+                        "statusStep": 5,
+                        "statusQuestionLog": 3,
+                        "indexMaterial": -1,
+                        "typeAnswer": 1,
+                        "userOptionId": [],
+                        "userOptionText": [],
+                        "numberQuestion": 27,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [],
+                        "answerFreeText": [],
+                        "explain": "",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 0.0,
+                        "maxScore": 1.0,
+                        "percentRight": 0.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "68f85758821f47a09e524e19",
+                        "testId": "68f0b711f56366aff9c9938e",
+                        "stepNextId": "68f85758821f47a09e524e1a",
+                        "stepIndex": 25,
+                        "content": "<p>Cho đoạn tư liệu sau đây:</p><p>“[Năm 1960],<i> Đại hội đồng Liên hợp quốc đã thông qua bản Tuyên ngôn về thủ tiêu hoàn toàn chủ nghĩa thực dân, trao trả độc lập cho các quốc gia và dân tộc thuộc địa. Đó là một sự kiện chính trị quan trọng. Tuyên ngôn đã khẳng định các nước thực dân đã vi phạm nguyên tắc quan trọng nhất của luật pháp quốc tế; khẳng định rõ ràng cơ sở pháp lí quốc tế của cuộc đấu tranh giành độc lập của các dân tộc bị áp bức”.</i></p><p>(Nguyễn Quốc Hùng – Nguyễn Hồng Quân, <i>Liên hợp quốc và Lực lượng gìn giữ hoà bình Liên hợp quốc</i>, NXB Chính trị quốc gia, Hà Nội, 2008, tr.46)</p>",
+                        "options": [
+                            {
+                                "content": "Với sự kiện Liên hợp quốc thông qua bản Tuyên ngôn về thủ tiêu hoàn toàn chủ nghĩa thực dân (năm 1960) thì chủ nghĩa thực dân bị thủ tiêu hoàn toàn.",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Tuyên ngôn về thủ tiêu hoàn toàn chủ nghĩa thực dân (năm 1960) đã thể hiện sự ủng hộ của Liên hợp quốc đối với sự nghiệp đấu tranh giành độc lập của nhân dân các nước Á, Phi, Mĩ La-tinh.",
+                                "idOption": 1,
+                                "isAnswer": true,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Tuyên ngôn về thủ tiêu hoàn toàn chủ nghĩa thực dân (năm 1960) đã bổ sung thêm những nguyên tắc hoạt động cơ bản của tổ chức Liên hợp quốc.",
+                                "idOption": 2,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Nội dung chính của đoạn tư liệu đã khẳng định vai trò duy trì, hoà bình, an ninh quốc tế của Liên hợp quốc.",
+                                "idOption": 3,
+                                "isAnswer": true,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 1,
+                        "indexMaterial": -1,
+                        "typeAnswer": 1,
+                        "rightAnswer": true,
+                        "userOptionId": [],
+                        "userOptionText": [
+                            "false",
+                            "true",
+                            "false",
+                            "true"
+                        ],
+                        "numberQuestion": 26,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [],
+                        "answerFreeText": [
+                            "false",
+                            "true",
+                            "false",
+                            "true"
+                        ],
+                        "explain": "",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 1.0,
+                        "maxScore": 1.0,
+                        "percentRight": 100.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "68f85758821f47a09e524e1a",
+                        "testId": "68f0b711f56366aff9c9938e",
+                        "stepNextId": "68f85758821f47a09e524e1b",
+                        "stepIndex": 26,
+                        "content": "<p>Cho bảng thông tin sau đây:</p><table class=\"table table-bordered\"><thead><tr><th>Thời gian</th><th>Văn kiện</th></tr></thead><tbody><tr><td>08-1967</td><td>Tuyên bố ASEAN (Tuyên bố Băng Cốc)</td></tr><tr><td>11-1971</td><td>Tuyên bố về Khu vực Hòa bình, Tự do và Trung lập (ZOPFAN) </td></tr><tr><td>02-1976</td><td>Hiệp ước Thân thiện và Hợp tác ở Đông Nam Á (Hiệp ước Ba-li)</td></tr><tr><td>12-1997</td><td>Tầm nhìn ASEAN 2020</td></tr><tr><td>11-2007</td><td>Hiến chương ASEAN </td></tr></tbody></table>",
+                        "options": [
+                            {
+                                "content": "Bảng thông tin trên thể hiện các sự kiện trong quá trình ra đời và phát triển của Hiệp hội các quốc gia Đông Nam Á (ASEAN)",
+                                "idOption": 0,
+                                "isAnswer": true,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Từ năm 1967-2007, ASEAN đã hiện thực hóa được ý tưởng xây dựng Cộng đồng ASEAN với ba trụ cột.",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Hiến chương ASEAN&nbsp;là một trong những văn kiện&nbsp;có ý nghĩa&nbsp;đặc biệt quan trọng,&nbsp;tạo ra khuôn khổ pháp lý và thể chế thúc đẩy gia tăng hợp tác khu vực.",
+                                "idOption": 2,
+                                "isAnswer": true,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Bảng thông tin trên phản ánh ASEAN đã xây dựng được một hệ thống các văn bản pháp lí, tạo khuôn khổ cho việc bảo vệ hòa bình, an ninh ở Đông Nam Á",
+                                "idOption": 3,
+                                "isAnswer": true,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 1,
+                        "indexMaterial": -1,
+                        "typeAnswer": 1,
+                        "rightAnswer": true,
+                        "userOptionId": [],
+                        "userOptionText": [
+                            "true",
+                            "false",
+                            "true",
+                            "true"
+                        ],
+                        "numberQuestion": 28,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [],
+                        "answerFreeText": [
+                            "true",
+                            "false",
+                            "true",
+                            "true"
+                        ],
+                        "explain": "",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 1.0,
+                        "maxScore": 1.0,
+                        "percentRight": 100.0
+                    },
+                    "typeData": 0
+                },
+                {
+                    "dataStandard": {
+                        "stepId": "68f85758821f47a09e524e1b",
+                        "testId": "68f0b711f56366aff9c9938e",
+                        "stepNextId": "",
+                        "stepIndex": 27,
+                        "content": "<p>Cho đoạn tư liệu sau đây:</p><p><i>“Các nước ASEAN chúng tôi nay là một thị trường với khoảng 500 triệu dân có tổng sản phẩm nội địa là 600 tỷ USD. Chúng tôi đã đạt được thành tựu đáng kể trong lĩnh vực kinh tế, như tỷ lệ tăng trưởng cao, sự ổn định và thuyên giảm đáng kể tỷ lệ nghèo. Nay, khi thế kỷ 21 sắp tới và 30 năm sau khi ASEAN ra đời, chúng tôi họp mặt tại đây để vạch ra&nbsp;&nbsp;một tầm nhìn cho ASEAN&nbsp;&nbsp;trên cơ sở tình hình thực tế ngày nay và triển vọng tình hình trong những thập niên tới năm 2020.</i></p><p><i>Đến năm 2020, ASEAN sẽ thiết lập được một Đông Nam châu Á hoà bình và ổn định… đến năm 2020 toàn bộ Đông Nam châu Á sẽ là một cộng đồng ASEAN nhận thức được các mối liên hệ lịch sử của mình, hiểu rõ di sản văn hoá của mình và gắn bó với nhau bằng một bản sắc chung của khu vực”.</i></p><p><i>(</i>Trích<i> Tầm nhìn ASEAN 2020, </i>Thông qua tại Hội nghị cấp cao ASEAN không chính thức lần thứ hai Kuala Lumpur, ngày 14-16/12/1997)</p>",
+                        "options": [
+                            {
+                                "content": "Đoạn tư liệu phản ánh mục đích của các quốc gia Đông Nam Á là sẽ xây dựng một cộng đồng ASEAN vào năm 2021.",
+                                "idOption": 0,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Ý tưởng thành lập cộng đồng ASEAN dựa trên cơ sở những thành tựu ASEAN đã đạt được từ năm 1976 đến năm 1997.",
+                                "idOption": 1,
+                                "isAnswer": false,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Việc thành lập Cộng đồng ASEAN đã tăng cường sự hợp tác giữa các nước ASEAN, đưa ASEAN phát triển sang giai đoạn mới.",
+                                "idOption": 2,
+                                "isAnswer": true,
+                                "userSelected": false
+                            },
+                            {
+                                "content": "Sự ra đời của cộng đồng ASEAN là một trong những biểu hiện của xu thế toàn cầu hóa, xu thế hội nhập, giao lưu hợp tác quốc tế",
+                                "idOption": 3,
+                                "isAnswer": true,
+                                "userSelected": false
+                            }
+                        ],
+                        "statusStep": 5,
+                        "statusQuestionLog": 1,
+                        "indexMaterial": -1,
+                        "typeAnswer": 1,
+                        "rightAnswer": true,
+                        "userOptionId": [],
+                        "userOptionText": [
+                            "false",
+                            "false",
+                            "true",
+                            "true"
+                        ],
+                        "numberQuestion": 25,
+                        "template": 0,
+                        "typeView": 0,
+                        "answerOptionId": [],
+                        "answerFreeText": [
+                            "false",
+                            "false",
+                            "true",
+                            "true"
+                        ],
+                        "explain": "",
+                        "isAccessFlashcardVideo": true,
+                        "isAccessFlashcardText": true,
+                        "isAccessViewSolutions": true,
+                        "imageAnswer": [],
+                        "userImageAnswer": [],
+                        "scoreTeacher": 0.0,
+                        "timeSetScore": 0,
+                        "score": 1.0,
+                        "maxScore": 1.0,
+                        "percentRight": 100.0
+                    },
+                    "typeData": 0
+                }
+            ],
+            "listAnswer": [],
+            "listMarking": [],
+            "isAccess": true,
+            "startTimeAssign": 1760606400,
+            "endTimeAssign": 1761148800,
+            "totalQuestion": 28,
+            "totalCorrect": 27,
+            "totalPartialCorrect": 0,
+            "totalIncorrect": 1,
+            "totalDoing": 28,
+            "totalScore": 9.0,
+            "duration": 631,
+            "speed": 0.044374,
+            "accuracy": 96.43,
+            "percentComplete": 100,
+            "timeStart": 0,
+            "timeSubmit": 0,
+            "totalPoint": 0.0,
+            "point": 0.0,
+            "status": 4,
+            "totalScoreEssay": 0.0,
+            "totalScoreMultipleChoice": 9.0,
+            "totalRetries": 1
+        }
+    },
+    "totalRecords": 0,
+    "elapsed": 0.06,
+    "timeServer": 1763287408,
+    "timeResp": "16/11/2025 17:03",
+    "message": "Thành công",
+    "status": 1
+}

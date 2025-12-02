@@ -1,0 +1,94 @@
+-----------------------------------------
+request
+$session = New-Object Microsoft.PowerShell.Commands.WebRequestSession
+$session.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+Invoke-WebRequest -UseBasicParsing -Uri "https://oauth.onluyen.vn/api/account/login" `
+-Method "POST" `
+-WebSession $session `
+-Headers @{
+"authority"="oauth.onluyen.vn"
+  "method"="POST"
+  "path"="/api/account/login"
+  "scheme"="https"
+  "accept"="application/json, text/plain, */*"
+  "accept-encoding"="gzip, deflate, br, zstd"
+  "accept-language"="vi,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,nl;q=0.6"
+  "access-control-allow-origin"="*"
+  "cache-control"="no-cache"
+  "origin"="https://app.onluyen.vn"
+  "pragma"="no-cache"
+  "priority"="u=1, i"
+  "referer"="https://app.onluyen.vn/"
+  "sec-ch-ua"="`"Chromium`";v=`"142`", `"Microsoft Edge`";v=`"142`", `"Not_A Brand`";v=`"99`""
+  "sec-ch-ua-mobile"="?0"
+  "sec-ch-ua-platform"="`"Windows`""
+  "sec-fetch-dest"="empty"
+  "sec-fetch-mode"="cors"
+  "sec-fetch-site"="same-site"
+} `
+-ContentType "application/json" `
+-Body "{`"phoneNumber`":`"anhnv13@c3ltk.hanam.edu.vn`",`"password`":`"929313`",`"rememberMe`":true,`"userName`":`"anhnv13@c3ltk.hanam.edu.vn`",`"socialType`":`"Email`"}"
+
+respone OK
+{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc0dvZE1vZGUiOmZhbHNlLCJ1c2VySWQiOiI2NmU3ZDc5NzhlM2Q2ZWE0ZGZkZTFjZmEiLCJ1c2VyTmFtZSI6ImFuaG52MTNAYzNsdGsuaGFuYW0uZWR1LnZuIiwiaXNWZXJpZmllZCI6ZmFsc2UsIkdyYWRlSWQiOiJDMTIiLCJEaXNwbGF5TmFtZSI6Ik5ndXnhu4VuIFZp4buHdCBBbmgiLCJQcm92aW5jZUlkIjozNywiRGlzdHJpY3RJZCI6MTMzODQsIlNjaG9vbFllYXIiOjIwMjUsImNvZGVBcHAiOiJTQ0hPT0wiLCJwYXJ0bmVyIjoiT05MVVlFTiIsIlJvbGUiOiJTVFVERU5UIiwiQ3JlYXRlQnlTY2hvb2wiOjE3MTYsInByZW1pdW0iOmZhbHNlLCJjYW5DaGFuZ2VQYXNzd29yZCI6dHJ1ZSwibmVlZENoYW5nZVBhc3N3b3JkIjp0cnVlLCJFblNETG9naW4iOmZhbHNlLCJrZXlUb2tlbiI6Ijc5ODhmODRhZjZiNDE2NWFiMDVjZTkwNmVjNWIzMzkzIiwicGFja2FnZXMiOlsiSUVMVFMtc2Nob29sIiwiUFJFTUlVTS1TQ0hPT0wiXSwianRpIjoiMTRlYjQ3YWItY2NjMS00MzFkLTllZmItYWE0OWY4MDMzYTQ2IiwiaWF0IjoxNzYzMjE2NTk2LCJuYmYiOjE3NjMyMTY1OTYsImV4cCI6MTc2NTgwODU5NiwiaXNzIjoiRURNSUNSTyIsImF1ZCI6Ik9OTFVZRU4uVk4ifQ.H3Epa8WtFcRaY4cdYMDl9c9DUfOLAt478irv5xuacl0","refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmU3ZDc5NzhlM2Q2ZWE0ZGZkZTFjZmEiLCJ1c2VyTmFtZSI6ImFuaG52MTNAYzNsdGsuaGFuYW0uZWR1LnZuIiwiaXNWZXJpZmllZCI6ZmFsc2UsIkRpc3BsYXlOYW1lIjoiTmd1eeG7hW4gVmnhu4d0IEFuaCIsImNvZGVBcHAiOiJTQ0hPT0wiLCJqdGkiOiI3NDI5NzczYS0zMTJkLTQ3NTEtODFlMC1mMDMyNGFjNDBjOGYiLCJpYXQiOjE3NjMyMTY1OTYsIm5iZiI6MTc2MzIxNjU5NiwiZXhwIjoxNzY4NDAwNTk2LCJpc3MiOiJFRE1JQ1JPLlJFRlJFU0giLCJhdWQiOiJPTkxVWUVOLlZOIn0.SQj_iCtFPwj0gVDVlIOXnhDwEAblGEPnjoWsRMtbYpI","action":"Login","userId":"66e7d7978e3d6ea4dfde1cfa","avatar":"","account":"anhnv13@c3ltk.hanam.edu.vn","display_name":"Nguyễn Việt Anh","expires_in":2592000,"expires_at":"2025-12-15T21:23:16.4267018+07:00","isVerified":false,"status":200}
+
+analyse:
+token:JWT (acess token bearer)
+acees decode:
+{
+  "alg": "HS256",
+  "typ": "JWT"
+}
+{
+  "isGodMode": false,
+  "userId": "66e7d7978e3d6ea4dfde1cfa",
+  "userName": "anhnv13@c3ltk.hanam.edu.vn",
+  "isVerified": false,
+  "GradeId": "C12",
+  "DisplayName": "Nguyễn Việt Anh",
+  "ProvinceId": 37,
+  "DistrictId": 13384,
+  "SchoolYear": 2025,
+  "codeApp": "SCHOOL",
+  "partner": "ONLUYEN",
+  "Role": "STUDENT",
+  "CreateBySchool": 1716,
+  "premium": false,
+  "canChangePassword": true,
+  "needChangePassword": true,
+  "EnSDLogin": false,
+  "keyToken": "7988f84af6b4165ab05ce906ec5b3393",
+  "packages": [
+    "IELTS-school",
+    "PREMIUM-SCHOOL"
+  ],
+  "jti": "14eb47ab-ccc1-431d-9efb-aa49f8033a46",
+  "iat": 1763216596,
+  "nbf": 1763216596,
+  "exp": 1765808596,
+  "iss": "EDMICRO",
+  "aud": "ONLUYEN.VN"
+}
+refresh decode:
+{
+  "alg": "HS256",
+  "typ": "JWT"
+}
+{
+  "userId": "66e7d7978e3d6ea4dfde1cfa",
+  "userName": "anhnv13@c3ltk.hanam.edu.vn",
+  "isVerified": false,
+  "DisplayName": "Nguyễn Việt Anh",
+  "codeApp": "SCHOOL",
+  "jti": "7429773a-312d-4751-81e0-f0324ac40c8f",
+  "iat": 1763216596,
+  "nbf": 1763216596,
+  "exp": 1768400596,
+  "iss": "EDMICRO.REFRESH",
+  "aud": "ONLUYEN.VN"
+}
+
+respone wrong
+{"action":"Login","expires_in":0,"expires_at":"2025-11-15T21:22:39.4614985+07:00","isVerified":false,"message":"Mật khẩu không chính xác. Tài khoản sẽ bị khóa nếu sai 4 lần nữa.","status":-1}
+
+-----------------------------------------------------
