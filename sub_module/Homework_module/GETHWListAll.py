@@ -13,7 +13,7 @@ STATUS_MAP = {
     7: "Expired"
 }
 
-def fetch_mission_data(auth_token: str) -> Dict[str, Any] | None:
+def fetch_homework_data(auth_token: str) -> Dict[str, Any] | None:
     """
     Makes a GET request to the onluyen.vn API using the provided Bearer token
     and custom headers, converting the original PowerShell script logic.
@@ -97,8 +97,20 @@ def extract_detailed_summary(data: Dict[str, Any]) -> List[Dict[str, Any]]:
                         'time_expired': format_timestamp(assignment.get('timeExpired', 0)),
                         'retryable': 'Yes' if assignment.get('retryable', False) else 'No',
                         'content_type': assignment.get('assignmentContentType', 'N/A'),
+                    }) # Move to the next class once type 0 is processed
+            if data_group.get('type') == 1:
+                assignments = data_group.get('data', [])
+                for assignment in assignments:
+                    detailed_list.append({
+                        'logid': assignment.get('id', 'N/A'),
+                        'name': assignment.get('name', 'N/A'),
+                        'subject': class_name,
+                        'status': STATUS_MAP.get(assignment.get('status'), 'Unknown'),
+                        'time_assign': format_timestamp(assignment.get('timeAssign', 0)),
+                        'time_expired': format_timestamp(assignment.get('timeExpired', 0)),
+                        'retryable': 'Yes' if assignment.get('retryable', False) else 'No',
+                        'content_type': "Practice",
                     })
-                break # Move to the next class once type 0 is processed
 
     return detailed_list
 
@@ -240,11 +252,11 @@ def print_assignment_table(assignments: List[Dict[str, Any]]):
 
 if __name__ == '__main__':
     # NOTE: Replace this placeholder with your actual Bearer token
-    example_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc0dvZE1vZGUiOmZhbHNlLCJ1c2VySWQiOiI2NmU3ZDc5OThlM2Q2ZWE0ZGZkZTFkMWEiLCJ1c2VyTmFtZSI6Imh1bmdubTgxQGMzbHRrLmhhbmFtLmVkdS52biIsImlzVmVyaWZpZWQiOmZhbHNlLCJHcmFkZUlkIjoiQzEyIiwiRGlzcGxheU5hbWUiOiJOZ3V54buFbiBN4bqhbmggSMO5bmciLCJQcm92aW5jZUlkIjozNywiRGlzdHJpY3RJZCI6MTMzODQsIlNjaG9vbFllYXIiOjIwMjUsImNvZGVBcHAiOiJTQ0hPT0wiLCJwYXJ0bmVyIjoiT05MVVlFTiIsIlJvbGUiOiJTVFVERU5UIiwiQ3JlYXRlQnlTY2hvb2wiOjE3MTYsInByZW1pdW0iOmZhbHNlLCJjYW5DaGFuZ2VQYXNzd29yZCI6dHJ1ZSwibmVlZENoYW5nZVBhc3N3b3JkIjp0cnVlLCJFblNETG9naW4iOmZhbHNlLCJrZXlUb2tlbiI6Ijc5ODhmODRhZjZiNDE2NWFiMDVjZTkwNmVjNWIzMzkzIiwicGFja2FnZXMiOlsiSUVMVFMtc2Nob29sIiwiUFJFTUlVTS1TQ0hPT0wiXSwianRpIjoiOGQ4ODliNDUtZmE2OS00MmNhLWE2MmItZmYxMGFmY2JlY2RhIiwiaWF0IjoxNzYzMjczNjIzLCJuYmYiOjE3NjMyNzM2MjMsImV4cCI6MTc2NTg2NTYyMywiaXNzIjoiRURNSUNSTyIsImF1ZCI6Ik9OTFVZRU4uVk4ifQ.UvlEyGjT-MqKAQj0OJcEuFDSiQm87fsVgJhOj4lGkUs"
+    example_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc0dvZE1vZGUiOmZhbHNlLCJ1c2VySWQiOiI2NmU3ZDc5NjhlM2Q2ZWE0ZGZkZTFjZjIiLCJ1c2VyTmFtZSI6InZ5bHA5MEBjM2x0ay5oYW5hbS5lZHUudm4iLCJpc1ZlcmlmaWVkIjpmYWxzZSwiR3JhZGVJZCI6IkMxMiIsIkRpc3BsYXlOYW1lIjoiTMOqIFBoxrDGoW5nIFZ5IiwiUHJvdmluY2VJZCI6MzcsIkRpc3RyaWN0SWQiOjEzMzg0LCJTY2hvb2xZZWFyIjoyMDI1LCJjb2RlQXBwIjoiU0NIT09MIiwicGFydG5lciI6Ik9OTFVZRU4iLCJSb2xlIjoiU1RVREVOVCIsIkNyZWF0ZUJ5U2Nob29sIjoxNzE2LCJwcmVtaXVtIjpmYWxzZSwiY2FuQ2hhbmdlUGFzc3dvcmQiOnRydWUsIm5lZWRDaGFuZ2VQYXNzd29yZCI6ZmFsc2UsIkVuU0RMb2dpbiI6ZmFsc2UsInBhY2thZ2VzIjpbIlBSRU1JVU0tU0NIT09MIiwiSUVMVFMtc2Nob29sIl0sImp0aSI6ImFlYmE2ZDc2LTEwYzgtNGFlOS1iZTYxLTA1YWIwYWI5NDlkNiIsImlhdCI6MTc2NTA2OTk4MCwibmJmIjoxNzY1MDY5OTgwLCJleHAiOjE3Njc2NjE5ODAsImlzcyI6IkVETUlDUk8iLCJhdWQiOiJPTkxVWUVOLlZOIn0.xEj014rb6WzHLXrPDJlplNPhBa6AM5G_q0IWwewpfbo"
 
     print("Attempting to fetch data...")
 
-    data = fetch_mission_data(example_token)
+    data = fetch_homework_data(example_token)
 
 
 
@@ -254,7 +266,8 @@ if __name__ == '__main__':
         
         # 1. Extract all assignments
         all_assignments = extract_detailed_summary(data)
-        
+        print(f"Total assignments extracted: {len(all_assignments)}")
+        print_assignment_table(all_assignments)
         # --- Example 1: Filtering by Status (Done) ---
         target_status = "Done"
         print(f"\n[EXAMPLE 1] Filtering assignments for status: '{target_status}'")
