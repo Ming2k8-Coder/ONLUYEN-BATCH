@@ -3,255 +3,169 @@ import re
 import sys
 import time
 from typing import Dict, Any, List, Union
-# Import the function from the provided submodule
-from sub_module.TIMESTAMPGen import generate_timestamp_sequence # Assuming this is the correct function name
+from sub_module.TIMESTAMPGen import generate_timestamp_sequence
+from sub_module.utils import clean_content
+from config import *
 
-
-
-# IMPORTANT: Replace these with the actual file names if they change.
-ANSWER_FILE = "Nguyễn Tuấn Minh-6925175257021d562da69e90-ANSWER.json"
-QUESTION_FILE = "assignment_response.json"
+ANSWER_FILE = "Nguyễn Việt Anh-69513503cc19939a44efdd48-ANSWER.json"
+QUESTION_FILE = "debug_solve_output.txt"
 
 def debug_print(message: str, debug_mode: bool):
-    """Helper function to print messages only if debug_mode is True."""
     if debug_mode:
         print(f"[DEBUG] {message}")
 
-def clean_content(html_string: str) -> str:
-    """
-    Strips HTML tags (like <p>, <strong>, <span>) and excessive whitespace
-    from the content string for reliable comparison.
-    """
-    # 1. Strip all HTML/XML tags
-    text = re.sub(r'<[^>]*>', '', html_string)
-    # 2. Strip leading/trailing whitespace
-    text = text.strip()
-    # 3. Strip common ending punctuation (. or ,) if it's outside math markup
-    text = text.strip('.')
-    text = text.strip(',')
-    return text
-
 def solve_assignment(answer_data_str: str, question_data_str: str, debug_mode: bool = False) -> Dict[str, Union[List[Dict[str, Any]], str, int]]:
-    """
-    Parses two JSON strings, matches correct answers to question options, 
-    generates timestamps, and constructs the submission payload 
-    dictionary in the format required by the 'submit_assignment' endpoint.
-
-    The returned dictionary contains:
-    - 'listAnswer': A list of matched answers ready for submission.
-    - 'preSignedUrlAnswer': The extracted pre-signed URL for the submission PUT request.
-    - 'timeServer': The server time extracted from the question data.
-
-    Args:
-        answer_data_str (str): JSON string containing the correct answers (as produced by json.dumps).
-        question_data_str (str): JSON string containing the questions and options 
-                                 (as produced by json.dumps).
-        debug_mode (bool, optional): If True, prints detailed debug information. Defaults to False.
-        
-    Returns:
-        Dict[str, Union[List[Dict[str, Any]], str, int]]: The submission payload dictionary.
-    """
     debug_print(f"Debug mode is {'ON' if debug_mode else 'OFF'}.", debug_mode)
-    
-    # 1. Load the data from the two sources
+    if debug_mode:
+        with open("debugwrite.txt","w",encoding = "utf8") as f:
+            f.write(question_data_str)
     try:
         answer_data = json.loads(answer_data_str)
         question_data = json.loads(question_data_str)
-
-    except json.JSONDecodeError as e:
-        print(f"Error: Failed to decode JSON. Check integrity of input strings.")
-        print(f"Details: {e}")
-        return {"listAnswer": [], "preSignedUrlAnswer": "ERROR", "timeServer": "ERROR"}
-    except Exception as e:
-        print(f"An unexpected error occurred during data loading: {e}")
+    except json.JSONDecodeError:
         return {"listAnswer": [], "preSignedUrlAnswer": "ERROR", "timeServer": "ERROR"}
 
-    # EXTRACT TOP-LEVEL METADATA
     top_level_data = question_data.get('data', {})
     pre_signed_url = top_level_data.get('preSignedUrlAnswer', 'N/A')
     time_server = top_level_data.get('timeServer', 'N/A')
     
-    print("--- Assignment Metadata ---")
-    print(f"Time Server: {time_server}")
-    print(f"Pre-Signed Answer URL: {pre_signed_url}")
-    print("---------------------------")
+    # 1. Build TWO maps: ID-based and Content-based
+    answer_id_map = {}
+    answer_content_map = {} 
     
-    # Determine the starting timestamp for answer updates
-    try:
-        start_timestamp = int(time_server)
-    except (ValueError, TypeError):
-        start_timestamp = int(time.time())
-        print(f"Warning: timeServer '{time_server}' is invalid. Using current time {start_timestamp} as start.")
+    for item in answer_data.get('data', []):
+        q_id = item.get('numberQuestion')
+        type_answer = item.get('typeAnswer')
+        content_list = item.get('content', [])
+        
+        # Clean the Question Text (data source)
+        q_text_raw = item.get('content-dataStandard', '')
+        q_text_cleaned = clean_content(q_text_raw)
+        
+        # Clean the Answer Option Content
+        raw_answer = content_list[0] if content_list and type_answer != 1 else ''
+        cleaned_answer = clean_content(raw_answer)
+        
+        data_payload = {
+            'content': content_list,
+            'cleaned_content': cleaned_answer,
+            'type': type_answer,
+            'original_id': q_id
+        }
+        
+        if q_id is not None:
+            answer_id_map[q_id] = data_payload
+        if q_text_cleaned:
+            answer_content_map[q_text_cleaned] = data_payload
 
-
-    # 2. Build a map of Question ID -> Correct Answer Data (including type)
-    answer_map = {}
-    try:
-        for item in answer_data.get('data', []):
-            question_id = item.get('numberQuestion')
-            type_answer = item.get('typeAnswer') # <-- Lấy typeAnswer
-            content_list = item.get('content') # content_list là list, có thể chứa 1 phần tử (type 0, 5) hoặc nhiều phần tử (type 1)
-            
-            # Chỉ xử lý nếu có QID và content_list không rỗng
-            if question_id is not None and content_list is not None:
-                
-                # Đối với type 0, 5: raw_answer là phần tử đầu tiên, cleaned_answer cũng được tạo từ nó
-                raw_answer = content_list[0] if content_list and type_answer != 1 else ''
-                cleaned_answer = clean_content(raw_answer)
-                
-                # Store Question ID -> Answer Data mapping
-                answer_map[question_id] = {
-                    'content': content_list,        # Danh sách nội dung (có thể là [raw_content] hoặc ["true", "false",...])
-                    'cleaned_content': cleaned_answer, # Cleaned content (chỉ dùng cho type 0)
-                    'type': type_answer
-                }
-                debug_print(f"Mapped QID {question_id} (Type {type_answer}): Content={content_list}", debug_mode)
-    except Exception as e:
-        print(f"Error processing answer data structure: {e}")
-        return {"listAnswer": [], "preSignedUrlAnswer": pre_signed_url, "timeServer": time_server}
-
-    if not answer_map:
-        print("Error: Could not extract any question answers from the answer data.")
-        return {"listAnswer": [], "preSignedUrlAnswer": pre_signed_url, "timeServer": time_server}
-
-    debug_print(f"Full Answer Map: {answer_map}", debug_mode)
-    print(f"Successfully loaded {len(answer_map)} correct answers.")
-    print("-------------------------------------------------------")
-    print("Results: Question ID -> Chosen Option Key (idOption) or Text Answer")
-    print("-------------------------------------------------------")
-
-    # 3. Process the Question Data and match answers
-    submission_answers: List[Dict[str, Any]] = []
-    
+    # 2. Match Questions
+    submission_answers = []
     question_list = top_level_data.get('data', [])
     num_questions = len(question_list)
-
-    # Generate timestamps for all potential answers
+    
     timestamp_sequence = generate_timestamp_sequence(
-        start=start_timestamp + 10,  
-        step=5,           
-        random_range=2,   
-        count=num_questions
+        start=int(time_server) + 10 if str(time_server).isdigit() else int(time.time()),
+        step=7, random_range=3, count=num_questions
     )
     ts_iter = iter(timestamp_sequence)
 
+    option_match_misses = 0
+    use_content_fallback = False
+
     for item in question_list:
-        data_standard = item.get('dataStandard') 
-        
-        # Xử lý dataMaterial nếu dataStandard không có
-        if data_standard is None:
+        data_standard = item.get('dataStandard') or {}
+        if not data_standard:
             data_material = item.get('dataMaterial', {})
-            data_content = data_material.get('data') 
-            
-            if isinstance(data_content, list) and data_content:
-                data_standard = data_content[0]
-            else:
-                data_standard = {} 
-        
-        if data_standard is None:
-            data_standard = {}
-            
-        question_id = data_standard.get('numberQuestion') 
-        step_id = data_standard.get('stepId') 
-        
-        if question_id is None:
-            debug_print(f"Skipping item: 'numberQuestion' (ID) is missing.", debug_mode)
-            continue
+            data_content = data_material.get('data', [])
+            if data_content: data_standard = data_content[0]
 
-        # Lấy dữ liệu đáp án từ map đã tạo
-        correct_answer_data = answer_map.get(question_id)
+        q_id = data_standard.get('numberQuestion')
+        step_id = data_standard.get('stepId')
+        q_text_cleaned = clean_content(data_standard.get('content', ''))
 
-        if correct_answer_data is None:
-            print(f"Warning: No answer found for Question ID {question_id}. Skipping.")
-            continue
+        # --- SELECTION LOGIC ---
+        correct_answer_data = None
         
+        # Try ID matching first unless fallback triggered
+        if not use_content_fallback:
+            correct_answer_data = answer_id_map.get(q_id)
+        
+        # Fallback to Content Map if ID-based match results in NO option match found later
+        # OR if we have already triggered the global fallback flag
+        if use_content_fallback or not correct_answer_data:
+            correct_answer_data = answer_content_map.get(q_text_cleaned)
+
+        if not correct_answer_data:
+            continue
+        #----
+        flagidopt = True
+        # --- OPTION MATCHING ---
         type_answer = correct_answer_data.get('type')
-        correct_answer_content_cleaned = correct_answer_data.get('cleaned_content')
-        correct_answer_content_list = correct_answer_data.get('content')
-        
-        # Biến để lưu nội dung sẽ gửi đi trong trường submission (ID hoặc Text/List of Texts)
-        submission_content: List[str] = []
-        # Biến để lưu tên khóa (optionId hoặc optionText)
-        submission_key: str = 'optionText' 
+        submission_content = []
+        submission_key = 'optionText'
         match_found = False
+        debug_print(">"*5 + q_text_cleaned + ">"*5 ,debug_mode)
         
-        # --- LOGIC DỰA TRÊN typeAnswer ---
-
         if type_answer == 0:
-            # Type 0: Multiple Choice / Select Answer
-            debug_print(f"\n--- Processing QID {question_id} (Type 0) ---", debug_mode)
-            debug_print(f"Target Cleaned Answer: '{correct_answer_content_cleaned}'", debug_mode)
-
+            target_opt = correct_answer_data.get('cleaned_content')
             options = data_standard.get('options', [])
-            for option in options:
-                option_key = option.get('idOption') 
-                raw_option_content = option.get('content')
+            optioniter = 0
+            for opt in options:
                 
-                if raw_option_content and option_key is not None:
-                    cleaned_option_content = clean_content(raw_option_content)
-                    
-                    debug_print(f"  Comparing Option {option_key}: Cleaned='{cleaned_option_content}'", debug_mode)
-                    
-                    if cleaned_option_content == correct_answer_content_cleaned:
-                        print(f"Question {question_id} (Step ID: {step_id}): Option {option_key} (Match: '{correct_answer_content_cleaned}')")
-                        
-                        # Dùng idOption làm nội dung
-                        submission_content.append(str(option_key)) 
-                        # SỬ DỤNG KHÓA optionId
-                        submission_key = 'optionId'
-                        match_found = True
-                        break
+                debug_print(f"Comparing ID:{int(opt.get('idOption'))}{clean_content(opt.get('content'))} to {target_opt}",debug_mode)
+                if clean_content(opt.get('content')) == target_opt:
+                    if flagidopt:
+                        submission_content.append(optioniter)
+                    else:
+                        submission_content.append(int(opt.get('idOption')))
+                    submission_key = 'optionId'
+                    match_found = True
+                    break
+                optioniter += 1
+    
+            # CRITICAL FIX: If ID matched but NO OPTION matched, increment miss counter
+            if not match_found and not use_content_fallback:
+                option_match_misses += 1
+                debug_print(f"QID {q_id} found but Option mismatch #{option_match_misses}. Looking for: {target_opt}", debug_mode)
+                
+                # Attempt immediate re-match via Content Map for this specific question
+                correct_answer_data = answer_content_map.get(q_text_cleaned)
+                if correct_answer_data:
+                    target_opt = correct_answer_data.get('cleaned_content')
+                    optioniter = 0
+                    for opt in options:
+                        debug_print(f"Comparingv2 {clean_content(opt.get('content'))} to {target_opt}",debug_mode)
+                        if clean_content(opt.get('content')) == target_opt:
+                            if flagidopt:
+                                submission_content.append(optioniter)
+                            else:
+                                submission_content.append(int(opt.get('idOption')))
+                            submission_key = 'optionId'
+                            match_found = True
+                            break
+                        optioniter += 1
+
+                if option_match_misses >= 3:
+                    print("!!! 3 Option mismatches detected. Forcing Content-Based Matching for rest of session. !!!")
+                    use_content_fallback = True
 
         elif type_answer == 1:
-            # Type 1: Multiple Select (Chọn nhiều đáp án hoặc Đúng/Sai) - THEO YÊU CẦU MỚI
-            debug_print(f"\n--- Processing QID {question_id} (Type 1) ---", debug_mode)
-            print(f"Question {question_id} (Step ID: {step_id}): Submission is list of true/false strings (type 1).")
-            
-            # Sử dụng danh sách nội dung đáp án thô (giả định đã là ["true", "false", ...])
-            if correct_answer_content_list:
-                submission_content = correct_answer_content_list
-                # Giữ khóa optionText
-                submission_key = 'optionText'
-                match_found = True
-            else:
-                print(f"Warning: Type 1 for QID {question_id} has empty content list. Skipping.")
-
+            submission_content = correct_answer_data.get('content')
+            match_found = True
         elif type_answer == 5:
-            # Type 5: Fill-in-the-Blank / Short Answer
-            debug_print(f"\n--- Processing QID {question_id} (Type 5) ---", debug_mode)
-            print(f"Question {question_id} (Step ID: {step_id}): Submission is direct answer text (type 5).")
-            
-            # Sử dụng nội dung đáp án thô trực tiếp (phần tử đầu tiên)
-            if correct_answer_content_list:
-                submission_content.append(correct_answer_content_list[0])
-                # Giữ khóa optionText
-                submission_key = 'optionText'
-                match_found = True
-            else:
-                print(f"Warning: Type 5 for QID {question_id} has empty content list. Skipping.")
+            submission_content = [correct_answer_data.get('content')[0]]
+            match_found = True
 
-        else:
-            # Xử lý các loại typeAnswer khác hoặc không có
-            print(f"Question {question_id} (Step ID: {step_id}): Unsupported or unmatched type ({type_answer}). Skipping.")
-            continue
-        
-        # Chỉ tạo payload nếu tìm thấy đáp án
-        if match_found and submission_content is not None: # Dùng is not None vì submission_content có thể là list rỗng
-            # Get the next timestamp
-            current_timestamp = next(ts_iter, int(time.time()))
-
-            # Dynamically create the dictionary item based on the submission key
+        if match_found:
             submission_answers.append({
-                submission_key: submission_content, # Uses 'optionId' (list of IDs) or 'optionText' (list of strings/values)
-                'id': step_id, 
+                submission_key: submission_content,
+                'id': step_id,
                 'isSkip': False,
                 'studentDoRight': None,
-                'timeUpdate': current_timestamp
+                'timeUpdate': next(ts_iter, int(time.time()))
             })
-
-        # Cảnh báo nếu type 0 không tìm thấy đáp án khớp
-        if type_answer == 0 and not match_found:
-            print(f"Question {question_id} (Step ID: {step_id}): No matching option found! Expected: '{correct_answer_content_cleaned}'")
+        
+        debug_print("<"*5,debug_mode)
             
     print("-------------------------------------------------------")
     print("Processing complete.")
@@ -268,19 +182,14 @@ def solve_assignment(answer_data_str: str, question_data_str: str, debug_mode: b
     return final_payload
 
 if __name__ == "__main__":
-    # Command-line entry point now reads both the answer and question files 
-    # into strings before passing them to the solve_assignment function.
     is_debug = '--debug' in sys.argv
     try:
-        # Read the answer file content into a string
         with open(ANSWER_FILE, 'r', encoding='utf-8') as f:
             answer_data_string = f.read()
             
-        # Read the question file content into a string
         with open(QUESTION_FILE, 'r', encoding='utf-8') as f:
             question_data_string = f.read()
             
-        # Call solve_assignment with both contents as strings
         result_payload = solve_assignment(answer_data_string, question_data_string, debug_mode=is_debug)
         
         if result_payload and result_payload.get('listAnswer'):
