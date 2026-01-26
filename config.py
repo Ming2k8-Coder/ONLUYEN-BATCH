@@ -7,7 +7,7 @@ ANSWER_FILE_PATTERN = '{student_name}-{logid}-ANSWER.json'
 OUTPUT_JSON_PATTERN = '{student_name}-{logid}.json'
 
 # Performance
-DEFAULT_THREAD_COUNT = 20
+DEFAULT_THREAD_COUNT = 5
 DEBUG_MODE = False
 
 # API Config

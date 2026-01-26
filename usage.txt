@@ -1,2 +1,0 @@
-run in powershell python -X utf8 main.py | Tee-Object -FilePath logfile.txt
-type partial logid or full

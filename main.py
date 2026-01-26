@@ -91,10 +91,13 @@ def main():
         # Pass the db instance instead of file path
         start_time1 = time.perf_counter()
         logid, students_done, students_not_done = check_if_anyone_did_hw(db, logidpartial, current_debug_mode)
-
+        end_time1 = time.perf_counter()
+        elapsed = - start_time1 + end_time1
+        print(f"Elapsed time for login {elapsed:.4f}")
         #3.1:chose 1 student done
         if not students_done:
             print("NO REF STUDENT CAN BE FOUND")
+            
             sys.exit(1)
         if not students_not_done:
             print("ALL STUDENT DID HW")
@@ -115,8 +118,8 @@ def main():
         answer_filename = ANSWER_FILE_PATTERN.format(student_name=refs_student[0], logid=logid)
         with open(answer_filename,'w', encoding = 'utf8') as f:
             f.write(str(answer_json))
-        end_time1 = time.perf_counter()
-        elapsed_time1 = end_time1 - start_time1
+        end_time12 = time.perf_counter()
+        elapsed_time1 = end_time12 - start_time1
         print("-"*20)
         print(f"Elapsed time fetching answer: {elapsed_time1:.4f} seconds")
         print("-"*20)
