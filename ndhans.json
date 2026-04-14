@@ -1,0 +1,365 @@
+{
+    "assignId": "69cb341ee74c9161683c0ffd",
+    "assignmentContentType": 0,
+    "name": "Unit 4: Green life: Bài kiểm tra tổng hợp",
+    "data": [
+        {
+            "stepIndex": 0,
+            "content-dataStandard": "<div class=\"title\"><strong><em>Mark the letter A, B, C or D to indicate the correct answer to the following question.</em></strong></div>      <div class=\"content\">        <div class=\"text-small\">Mayor Jenkins was concerned about ocean ______ in Riverton due to nearby factories' plastic waste.<br></div>      </div>      <div class=\"list-selection vertical-sort\">        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"1\" class=\"form-check-input\" id=\"mathplay-answer-1\">          <label for=\"mathplay-answer-1\">deforestation</label>        </div>        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"2\" class=\"form-check-input\" id=\"mathplay-answer-2\">          <label for=\"mathplay-answer-2\">preservation</label>        </div>        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"3\" class=\"form-check-input\" id=\"mathplay-answer-3\">          <label for=\"mathplay-answer-3\">habitat</label>        </div>        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"4\" class=\"form-check-input\" id=\"mathplay-answer-4\">          <label for=\"mathplay-answer-4\">contamination</label>        </div>      </div>",
+            "numberQuestion": 13049448,
+            "typeAnswer": 5,
+            "content": [
+                "4"
+            ]
+        },
+        {
+            "stepIndex": 1,
+            "content-dataStandard": "<p><strong><em>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</em></strong><br>I would rather you ______ now. I am still in love with you.</p>",
+            "numberQuestion": 13056536,
+            "typeAnswer": 0,
+            "content": [
+                "<p>didn’t leave</p>"
+            ]
+        },
+        {
+            "stepIndex": 2,
+            "content-dataStandard": "<div class=\"title\"><strong>Listen and fill in the blank.</strong></div>      <div class=\"content\">        <div class=\"content-audio\">          <div class=\"play-audio\" audio=\"https://mathplay.onluyen.vn/AppTiengAnh/Lop12/CB/U4_L_2.mp3\" title=\"Nhấn vào để nghe\"></div>          <div class=\"play-audio-slow\" title=\"Nghe chậm\"></div>        </div>      </div>      <div class=\"answer-input-audio\">        <div class=\"line\">Climate change is one of the most pressing <span class=\"ans-span-second\"></span><input class=\"can-resize-second\" type=text id=\"mathplay-answer-1\"> of our time.</div>      </div>",
+            "numberQuestion": 13081611,
+            "typeAnswer": 5,
+            "content": [
+                "environmental issues"
+            ]
+        },
+        {
+            "stepIndex": 3,
+            "content-dataStandard": "<div class=\"title\"><strong><em>Mark the letter A, B, C or D to indicate the correct answer to the following question.</em></strong></div>      <div class=\"content\">        <div class=\"text-small\">As the drought worsens and food becomes scarce, ______ will soon hit this town.<br></div>      </div>      <div class=\"list-selection vertical-sort\">        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"1\" class=\"form-check-input\" id=\"mathplay-answer-1\">          <label for=\"mathplay-answer-1\">famine</label>        </div>        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"2\" class=\"form-check-input\" id=\"mathplay-answer-2\">          <label for=\"mathplay-answer-2\">flood</label>        </div>        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"3\" class=\"form-check-input\" id=\"mathplay-answer-3\">          <label for=\"mathplay-answer-3\">blizzard</label>        </div>        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"4\" class=\"form-check-input\" id=\"mathplay-answer-4\">          <label for=\"mathplay-answer-4\">stream</label>        </div>      </div>",
+            "numberQuestion": 13049453,
+            "typeAnswer": 5,
+            "content": [
+                "1"
+            ]
+        },
+        {
+            "stepIndex": 4,
+            "content-dataStandard": "<p>Which of the following is TRUE according to paragraph 4?</p>",
+            "numberQuestion": 13357816,
+            "typeAnswer": 0,
+            "content": [
+                "<p>The momentum for NbS is increasing worldwide even though some                                obstacles remain.</p>"
+            ]
+        },
+        {
+            "stepIndex": 5,
+            "content-dataStandard": "<p>The word \"<strong>                            <ins>mitigate</ins>                        </strong>\" in paragraph                        3 is <strong>OPPOSITE</strong> in meaning to ______.</p>",
+            "numberQuestion": 13357814,
+            "typeAnswer": 0,
+            "content": [
+                "<p>worsen</p>"
+            ]
+        },
+        {
+            "stepIndex": 6,
+            "content-dataStandard": "<p>The word \"<strong>                            <ins>It</ins>                        </strong>\" in paragraph 3                        refers to ______.</p>",
+            "numberQuestion": 13357815,
+            "typeAnswer": 0,
+            "content": [
+                "<p>agroforestry</p>"
+            ]
+        },
+        {
+            "stepIndex": 7,
+            "content-dataStandard": "<p>Which of the following best paraphrases the underlined sentence in paragraph                        2?</p>",
+            "numberQuestion": 13357813,
+            "typeAnswer": 0,
+            "content": [
+                "<p>Wetlands are being restored to clean polluted water, manage floods,                                and maintain habitats for threatened species.</p>"
+            ]
+        },
+        {
+            "stepIndex": 8,
+            "content-dataStandard": "<p>The word \"<strong>                            <ins>escalate</ins>                        </strong>\" in paragraph                        1 can be best replaced by ______.</p>",
+            "numberQuestion": 13357811,
+            "typeAnswer": 0,
+            "content": [
+                "<p>increase</p>"
+            ]
+        },
+        {
+            "stepIndex": 9,
+            "content-dataStandard": "<p>Which paragraph refers to farming methods that blend tree cultivation with                        agricultural fields?</p>",
+            "numberQuestion": 13357817,
+            "typeAnswer": 0,
+            "content": [
+                "<p>Paragraph 3</p>"
+            ]
+        },
+        {
+            "stepIndex": 10,
+            "content-dataStandard": "<p>Which of the following is NOT mentioned in paragraph 1 as a feature of NbS?</p>",
+            "numberQuestion": 13357812,
+            "typeAnswer": 0,
+            "content": [
+                "<p>replacing high-tech innovation</p>"
+            ]
+        },
+        {
+            "stepIndex": 11,
+            "content-dataStandard": "<p>Which paragraph highlights natural defences that both shield human                        settlements from marine hazards and act as long-term carbon reservoirs?</p>",
+            "numberQuestion": 13357818,
+            "typeAnswer": 0,
+            "content": [
+                "<p>Paragraph 2</p>"
+            ]
+        },
+        {
+            "stepIndex": 12,
+            "content-dataStandard": "<div class=\"title\"><strong><em>Mark the letter A, B, C or D to indicate the correct answer to the following question.</em></strong></div>      <div class=\"content\">        <div class=\"text-small\">Jack went to the ______ this morning to pick apples.<br></div>      </div>      <div class=\"list-selection vertical-sort\">        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"1\" class=\"form-check-input\" id=\"mathplay-answer-1\" config-typeaction=\"number\" value=\"1\">          <label for=\"mathplay-answer-1\">meadow</label>        </div>        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"2\" class=\"form-check-input\" id=\"mathplay-answer-2\" value=\"2\">          <label for=\"mathplay-answer-2\">orchard</label>        </div>        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"3\" class=\"form-check-input\" id=\"mathplay-answer-3\" value=\"3\">          <label for=\"mathplay-answer-3\">stable</label>        </div>        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"4\" class=\"form-check-input\" id=\"mathplay-answer-4\" value=\"4\">          <label for=\"mathplay-answer-4\">ranch</label>        </div>      </div>",
+            "numberQuestion": 13049447,
+            "typeAnswer": 5,
+            "content": [
+                "2"
+            ]
+        },
+        {
+            "stepIndex": 13,
+            "content-dataStandard": "<div class=\"title\"><strong>Listen and fill in the blank.</strong></div>      <div class=\"content\">        <div class=\"content-audio\">          <div class=\"play-audio\" audio=\"https://mathplay.onluyen.vn/AppTiengAnh/Lop12/CB/U4_L_3.mp3\" title=\"Nhấn vào để nghe\"></div>          <div class=\"play-audio-slow\" title=\"Nghe chậm\"></div>        </div>      </div>      <div class=\"answer-input-audio\">        <div class=\"line\"><span class=\"ans-span-second\"></span><input class=\"can-resize-second\" type=text id=\"mathplay-answer-1\"> in major cities is a growing concern for public health.</div>      </div>",
+            "numberQuestion": 13081612,
+            "typeAnswer": 5,
+            "content": [
+                "Air pollution"
+            ]
+        },
+        {
+            "stepIndex": 14,
+            "content-dataStandard": "<div class=\"title\"><strong><em>Mark the letter A, B, C or D to indicate the correct answer to the following question.</em></strong></div>      <div class=\"content\">        <div class=\"text-small\">The weather grew increasingly ______, with relentless heat waves and sudden, violent storms.<br></div>      </div>      <div class=\"list-selection vertical-sort\">        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"1\" class=\"form-check-input\" id=\"mathplay-answer-1\">          <label for=\"mathplay-answer-1\">aggressive</label>        </div>        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"2\" class=\"form-check-input\" id=\"mathplay-answer-2\">          <label for=\"mathplay-answer-2\">peaceful</label>        </div>        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"3\" class=\"form-check-input\" id=\"mathplay-answer-3\">          <label for=\"mathplay-answer-3\">timid</label>        </div>        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"4\" class=\"form-check-input\" id=\"mathplay-answer-4\">          <label for=\"mathplay-answer-4\">captivating</label>        </div>      </div>",
+            "numberQuestion": 13049454,
+            "typeAnswer": 5,
+            "content": [
+                "1"
+            ]
+        },
+        {
+            "stepIndex": 15,
+            "content-dataStandard": "<div class=\"title\"><strong><em>Mark the letter A, B, C or D to indicate the correct answer to the following question.</em></strong></div>      <div class=\"content\">        <div class=\"text-small\">The oil spill caused ______ damage to the marine ecosystem, leading to the loss of countless species and habitats.<br></div>      </div>      <div class=\"list-selection vertical-sort\">        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"1\" class=\"form-check-input\" id=\"mathplay-answer-1\">          <label for=\"mathplay-answer-1\">irreparable</label>        </div>        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"2\" class=\"form-check-input\" id=\"mathplay-answer-2\">          <label for=\"mathplay-answer-2\">minor</label>        </div>        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"3\" class=\"form-check-input\" id=\"mathplay-answer-3\">          <label for=\"mathplay-answer-3\">temporary</label>        </div>        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"4\" class=\"form-check-input\" id=\"mathplay-answer-4\">          <label for=\"mathplay-answer-4\">reversible</label>        </div>      </div>",
+            "numberQuestion": 13049456,
+            "typeAnswer": 5,
+            "content": [
+                "1"
+            ]
+        },
+        {
+            "stepIndex": 16,
+            "content-dataStandard": "<div class=\"title\">Rewrite the following sentence without changing its meaning.</div>\r\n\r\n<div class=\"answer-input\">\r\n<div class=\"line\">You didn&rsquo;t tell me about that earlier.<br>\r\n<i aria-hidden=\"true\" class=\"fa fa-arrow-right\"></i> If only <span class=\"ans-span-second\"></span> <input class=\"can-resize-second\" data-type=\"text\" id=\"mathplay-answer-1\" type=\"text\" data-type=\"text\">&nbsp;earlier.</div>\r\n</div>",
+            "numberQuestion": 13024640,
+            "typeAnswer": 5,
+            "content": [
+                "you had told me about that"
+            ]
+        },
+        {
+            "stepIndex": 17,
+            "content-dataStandard": "<p>                        <strong>Blank (5)</strong>                    </p>",
+            "numberQuestion": 13357809,
+            "typeAnswer": 0,
+            "content": [
+                "<p>creativity</p>"
+            ]
+        },
+        {
+            "stepIndex": 18,
+            "content-dataStandard": "<p>                        <strong>Blank (1)</strong>                    </p>",
+            "numberQuestion": 13357805,
+            "typeAnswer": 0,
+            "content": [
+                "<p>gather</p>"
+            ]
+        },
+        {
+            "stepIndex": 19,
+            "content-dataStandard": "<p>                        <strong>Blank (2)</strong>                    </p>",
+            "numberQuestion": 13357806,
+            "typeAnswer": 0,
+            "content": [
+                "<p>range</p>"
+            ]
+        },
+        {
+            "stepIndex": 20,
+            "content-dataStandard": "<p>                        <strong>Blank (3)</strong>                    </p>",
+            "numberQuestion": 13357807,
+            "typeAnswer": 0,
+            "content": [
+                "<p>allowing</p>"
+            ]
+        },
+        {
+            "stepIndex": 21,
+            "content-dataStandard": "<p>                        <strong>Blank (6)</strong>                    </p>",
+            "numberQuestion": 13357810,
+            "typeAnswer": 0,
+            "content": [
+                "<p>that</p>"
+            ]
+        },
+        {
+            "stepIndex": 22,
+            "content-dataStandard": "<p>                        <strong>Blank (4)</strong>                    </p>",
+            "numberQuestion": 13357808,
+            "typeAnswer": 0,
+            "content": [
+                "<p>partake in</p>"
+            ]
+        },
+        {
+            "stepIndex": 23,
+            "content-dataStandard": "<div class=\"title\"><strong><em>Mark the letter A, B, C or D to indicate the correct answer to the following question.</em></strong></div>      <div class=\"content\">        <div class=\"text-small\">The park was ______, making it hard to maintain cleanliness with few employees.<br></div>      </div>      <div class=\"list-selection vertical-sort\">        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"1\" class=\"form-check-input\" id=\"mathplay-answer-1\">          <label for=\"mathplay-answer-1\">understaffed</label>        </div>        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"2\" class=\"form-check-input\" id=\"mathplay-answer-2\">          <label for=\"mathplay-answer-2\">overpaid</label>        </div>        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"3\" class=\"form-check-input\" id=\"mathplay-answer-3\">          <label for=\"mathplay-answer-3\">multipurpose</label>        </div>        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"4\" class=\"form-check-input\" id=\"mathplay-answer-4\">          <label for=\"mathplay-answer-4\">undervalued</label>        </div>      </div>",
+            "numberQuestion": 13049451,
+            "typeAnswer": 5,
+            "content": [
+                "1"
+            ]
+        },
+        {
+            "stepIndex": 24,
+            "content-dataStandard": "<p><strong>                    <em>Mark the letter A, B, C or D to indicate the best arrangement of utterances                or sentences to make a meaningful exchange or text in the following question.</em>                </strong><br>a.                Lan: Yes, I often sort paper, glass, and plastic before throwing them away.<br>b.                Hoa: That’s a good practice! Recycling really saves resources.<br>c. Hoa: Do you                usually separate your household waste for recycling?<br>d. Hoa: True, and if more                people did it, we’d reduce landfill problems.<br>e. Lan: Exactly, it doesn’t take                much effort but the impact is huge.</p>",
+            "numberQuestion": 13357870,
+            "typeAnswer": 0,
+            "content": [
+                "<p>c - a - b - e - d</p>"
+            ]
+        },
+        {
+            "stepIndex": 25,
+            "content-dataStandard": "<p><strong>                    <em>Mark the letter A, B, C or D to indicate the best arrangement of utterances                or sentences to make a meaningful exchange or text in the following question.                </em></strong><br>a. Mai: I’ve started using                reusable bottles and bags to cut down on plastic waste.<br>b. Mai: Yes, every                small action helps protect the environment.<br>c. Nam: That’s a smart idea! Do                they really make a big difference?</p>",
+            "numberQuestion": 13357869,
+            "typeAnswer": 0,
+            "content": [
+                "<p>a - c - b</p>"
+            ]
+        },
+        {
+            "stepIndex": 26,
+            "content-dataStandard": "<p><strong><em>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</em></strong><br>They would rather go for a hike than ______ indoors on a beautiful day.</p>",
+            "numberQuestion": 13056537,
+            "typeAnswer": 0,
+            "content": [
+                "<p>stay</p>"
+            ]
+        },
+        {
+            "stepIndex": 27,
+            "content-dataStandard": "<p><strong>Mark the letter A, B, C or D to indicate the correct answer to the following question.</strong><br>Huong wishes she ______ free time to visit her close friend in the hospital.</p>",
+            "numberQuestion": 13024997,
+            "typeAnswer": 0,
+            "content": [
+                "<p>had</p>"
+            ]
+        },
+        {
+            "stepIndex": 28,
+            "content-dataStandard": "<p><strong>Mark the letter A, B, C or D to indicate the underlined part that needs correction in the following question.</strong><br>I wish I <ins>have</ins> <ins>more</ins> time <ins>to</ins> look <ins>after</ins> my family.</p>",
+            "numberQuestion": 13025055,
+            "typeAnswer": 0,
+            "content": [
+                "<p>have</p>"
+            ]
+        },
+        {
+            "stepIndex": 29,
+            "content-dataStandard": "<p><em><strong>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</strong></em><br>Helena would rather ______ time at home on the holiday.</p>",
+            "numberQuestion": 13056539,
+            "typeAnswer": 0,
+            "content": [
+                "<p>spend</p>"
+            ]
+        },
+        {
+            "stepIndex": 30,
+            "content-dataStandard": "<div class=\"title\">Rewrite the following sentence without changing its meaning.</div>\r\n\r\n<div class=\"answer-input\">\r\n<div class=\"line\">I am not good at Chinese.<br>\r\n<i aria-hidden=\"true\" class=\"fa fa-arrow-right\"></i> If only <span class=\"ans-span-second\"></span> <input class=\"can-resize-second\" data-type=\"text\" id=\"mathplay-answer-1\" type=\"text\" data-type=\"text\">.</div>\r\n</div>",
+            "numberQuestion": 13024621,
+            "typeAnswer": 5,
+            "content": [
+                "I were good at Chinese"
+            ]
+        },
+        {
+            "stepIndex": 31,
+            "content-dataStandard": "<div class=\"title\"><strong>Listen and fill in the blank.</strong></div>      <div class=\"content\">        <div class=\"content-audio\">          <div class=\"play-audio\" audio=\"https://mathplay.onluyen.vn/AppTiengAnh/Lop12/CB/U4_L_4.mp3\" title=\"Nhấn vào để nghe\"></div>          <div class=\"play-audio-slow\" title=\"Nghe chậm\"></div>        </div>      </div>      <div class=\"answer-input-audio\">        <div class=\"line\">Protecting nature is essential for maintaining the <span class=\"ans-span-second\"></span><input class=\"can-resize-second\" type=text id=\"mathplay-answer-1\"> of ecosystems.</div>      </div>",
+            "numberQuestion": 13081613,
+            "typeAnswer": 5,
+            "content": [
+                "balance"
+            ]
+        },
+        {
+            "stepIndex": 32,
+            "content-dataStandard": "<div class=\"title\"><strong>Listen and fill in the blank.</strong></div>      <div class=\"content\">        <div class=\"content-audio\">          <div class=\"play-audio\" audio=\"https://mathplay.onluyen.vn/AppTiengAnh/Lop12/CB/U4_L_1.mp3\" title=\"Nhấn vào để nghe\"></div>          <div class=\"play-audio-slow\" title=\"Nghe chậm\"></div>        </div>      </div>      <div class=\"answer-input-audio\">        <div class=\"line\">Adopting a green life means making sustainable choices like using <span class=\"ans-span-second\"></span><input class=\"can-resize-second\" type=text id=\"mathplay-answer-1\"> and <span class=\"ans-span-second\"></span><input class=\"can-resize-second\" type=text id=\"mathplay-answer-2\">.</div>      </div>",
+            "numberQuestion": 13081610,
+            "typeAnswer": 5,
+            "content": []
+        },
+        {
+            "stepIndex": 33,
+            "content-dataStandard": "<p><strong><em>Mark the letter A, B, C, or D to indicate the correct answer for the following sentence.</em></strong><br> - Sharon’s car got broken into yesterday, did it?<br>- No. ______ got broken into!</p>",
+            "numberQuestion": 12794233,
+            "typeAnswer": 0,
+            "content": [
+                "<p>It was Nina’s car that</p>"
+            ]
+        },
+        {
+            "stepIndex": 34,
+            "content-dataStandard": "<div class=\"title\"><strong><em>Mark the letter A, B, C or D to indicate the correct answer to the following question.</em></strong></div>      <div class=\"content\">        <div class=\"text-small\">Alex emptied all the pots of standing water in the yard to keep them from becoming mosquito ______ grounds.<br></div>      </div>      <div class=\"list-selection vertical-sort\">        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"1\" class=\"form-check-input\" id=\"mathplay-answer-1\">          <label for=\"mathplay-answer-1\">growing</label>        </div>        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"2\" class=\"form-check-input\" id=\"mathplay-answer-2\">          <label for=\"mathplay-answer-2\">breeding</label>        </div>        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"3\" class=\"form-check-input\" id=\"mathplay-answer-3\">          <label for=\"mathplay-answer-3\">planting</label>        </div>        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"4\" class=\"form-check-input\" id=\"mathplay-answer-4\">          <label for=\"mathplay-answer-4\">farming</label>        </div>      </div>",
+            "numberQuestion": 13049450,
+            "typeAnswer": 5,
+            "content": [
+                "2"
+            ]
+        },
+        {
+            "stepIndex": 35,
+            "content-dataStandard": "<div class=\"title\"><strong><em>Mark the letter A, B, C or D to indicate the correct answer to the following question.</em></strong></div>      <div class=\"content\">        <div class=\"text-small\">A plastic straw in the ocean can take up to 200 years to ______.<br></div>      </div>      <div class=\"list-selection vertical-sort\">        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"1\" class=\"form-check-input\" id=\"mathplay-answer-1\">          <label for=\"mathplay-answer-1\">evaporate</label>        </div>        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"2\" class=\"form-check-input\" id=\"mathplay-answer-2\">          <label for=\"mathplay-answer-2\">inflate</label>        </div>        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"3\" class=\"form-check-input\" id=\"mathplay-answer-3\">          <label for=\"mathplay-answer-3\">degrade</label>        </div>        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"4\" class=\"form-check-input\" id=\"mathplay-answer-4\">          <label for=\"mathplay-answer-4\">melt</label>        </div>      </div>",
+            "numberQuestion": 13049446,
+            "typeAnswer": 5,
+            "content": [
+                "3"
+            ]
+        },
+        {
+            "stepIndex": 36,
+            "content-dataStandard": "<p><em><strong>Mark the letter A, B, C, or D to indicate the correct answer to the following question.</strong></em></p>\r\n\r\n<p>______&nbsp;on the phone last night.</p>",
+            "numberQuestion": 12782227,
+            "typeAnswer": 0,
+            "content": [
+                "<p>It was his mother who was</p>"
+            ]
+        },
+        {
+            "stepIndex": 37,
+            "content-dataStandard": "<p><em><strong>Mark the letter A, B, C, or D to indicate the sentence that is closest in meaning to the following question.</strong></em></p>\r\n\r\n<p>I am sorry that he won&rsquo;t accept the job he&rsquo;s been offered.</p>\r\n",
+            "numberQuestion": 13025143,
+            "typeAnswer": 0,
+            "content": [
+                "<p>I wish he would accept the job he’s been offered.</p>"
+            ]
+        },
+        {
+            "stepIndex": 38,
+            "content-dataStandard": "<div class=\"title\"><strong><em>Mark the letter A, B, C or D to indicate the correct answer to the following question.</em></strong></div>      <div class=\"content\">        <div class=\"text-small\">The ______ covered the entire forest in a thick layer of snow.<br></div>      </div>      <div class=\"list-selection vertical-sort\">        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"1\" class=\"form-check-input\" id=\"mathplay-answer-1\">          <label for=\"mathplay-answer-1\">hurricane</label>        </div>        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"2\" class=\"form-check-input\" id=\"mathplay-answer-2\">          <label for=\"mathplay-answer-2\">earthquake</label>        </div>        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"3\" class=\"form-check-input\" id=\"mathplay-answer-3\">          <label for=\"mathplay-answer-3\">blizzard</label>        </div>        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"4\" class=\"form-check-input\" id=\"mathplay-answer-4\">          <label for=\"mathplay-answer-4\">heatwave</label>        </div>      </div>",
+            "numberQuestion": 13049452,
+            "typeAnswer": 5,
+            "content": [
+                "3"
+            ]
+        },
+        {
+            "stepIndex": 39,
+            "content-dataStandard": "<div class=\"title\"><strong><em>Mark the letter A, B, C or D to indicate the correct answer to the following question.</em></strong></div>      <div class=\"content\">        <div class=\"text-small\">They will ______ the injured turtle back into the ocean tomorrow.<br></div>      </div>      <div class=\"list-selection vertical-sort\">        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"1\" class=\"form-check-input\" id=\"mathplay-answer-1\">          <label for=\"mathplay-answer-1\">release</label>        </div>        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"2\" class=\"form-check-input\" id=\"mathplay-answer-2\">          <label for=\"mathplay-answer-2\">capture</label>        </div>        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"3\" class=\"form-check-input\" id=\"mathplay-answer-3\">          <label for=\"mathplay-answer-3\">focus</label>        </div>        <div class=\"select-item\">          <input name=\"answer\" type=\"radio\" value=\"4\" class=\"form-check-input\" id=\"mathplay-answer-4\">          <label for=\"mathplay-answer-4\">withhold</label>        </div>      </div>",
+            "numberQuestion": 13049449,
+            "typeAnswer": 5,
+            "content": [
+                "1"
+            ]
+        }
+    ]
+}

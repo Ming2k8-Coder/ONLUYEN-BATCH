@@ -55,7 +55,7 @@ def fetch_homework_data(auth_token: str) -> Dict[str, Any] | None:
 
     try:
         # Perform the GET request
-        response = requests.get(url, headers=headers)
+        response = requests.get(url, headers=headers, timeout=10)
 
         # Raise an HTTPError for bad responses (4xx or 5xx)
         response.raise_for_status()

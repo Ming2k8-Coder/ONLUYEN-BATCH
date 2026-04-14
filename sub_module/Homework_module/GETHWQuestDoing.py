@@ -40,7 +40,7 @@ def get_assignment_data(token: str, assignment_id: str, write_to_file: str = Non
 
     try:
         # Perform the GET request
-        response = requests.get(url, headers=headers)
+        response = requests.get(url, headers=headers, timeout=10)
         response.raise_for_status()  # Raise an exception for bad status codes (4xx or 5xx)
         datautf = json.dumps(response.json(), indent=4, ensure_ascii= False)
         if write_to_file != None:

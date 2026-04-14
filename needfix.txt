@@ -1,0 +1,1 @@
+need seperate log by STT instead of freely print

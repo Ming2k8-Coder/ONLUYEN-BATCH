@@ -7,8 +7,8 @@ from sub_module.TIMESTAMPGen import generate_timestamp_sequence
 from sub_module.utils import clean_content
 from config import *
 
-ANSWER_FILE = "Nguyễn Việt Anh-69513503cc19939a44efdd48-ANSWER.json"
-QUESTION_FILE = "debug_solve_output.txt"
+ANSWER_FILE = "ndhans.json"
+QUESTION_FILE = "debugss.json"
 
 def debug_print(message: str, debug_mode: bool):
     if debug_mode:
@@ -153,8 +153,12 @@ def solve_assignment(answer_data_str: str, question_data_str: str, debug_mode: b
             submission_content = correct_answer_data.get('content')
             match_found = True
         elif type_answer == 5:
-            submission_content = [correct_answer_data.get('content')[0]]
-            match_found = True
+            try:
+                submission_content = [correct_answer_data.get('content')[0]]
+                match_found = True
+            except Exception as e:
+                print("err",e)
+           
 
         if match_found:
             submission_answers.append({
@@ -200,5 +204,5 @@ if __name__ == "__main__":
             
     except FileNotFoundError as e:
         print(f"Error: Could not find required file: {e.filename} to run standalone.")
-    except Exception as e:
-        print(f"An unexpected error occurred during standalone execution: {e}")
+ #   except Exception as e:
+#        print(f"An unexpected error occurred during standalone execution: {e}")

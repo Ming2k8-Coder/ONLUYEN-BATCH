@@ -19,7 +19,7 @@ def get_practice_info(practice_id, token):
     }
 
     try:
-        response = requests.get(url, headers=headers)
+        response = requests.get(url, headers=headers, timeout=10)
         response.raise_for_status()
         
         # Parse the JSON response

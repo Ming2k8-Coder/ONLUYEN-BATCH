@@ -3,7 +3,7 @@ from sub_module.POSTLogin import *
 from sub_module.Homework_module.GETHWListAll import *
 from sub_module.Homework_module.GETHWQuestDoing import *
 from sub_module.utils import *
-from config import DEFAULT_THREAD_COUNT
+from config import DEFAULT_THREAD_COUNT, CHECK_THREAD_COUNT
 import concurrent.futures
 from typing import Optional, List, Tuple, Dict, Any
 
@@ -71,7 +71,9 @@ def check_single_student(stt: int, db: StudentDatabase, partial_logid: str, debu
     return (stt, name, current_token, 'FETCH_FAILED', False)
 
 
-def check_if_anyone_did_hw(db: StudentDatabase, partial_logid: str, debug: bool = False) -> Tuple[str, List[Tuple[str, str]], List[Tuple[str, Optional[str]]]]:
+import time
+
+def check_if_anyone_did_hw(db: StudentDatabase, partial_logid: str, debug: bool = False) -> Tuple[str, List[Tuple[str, str]], List[Tuple[str, Optional[str]]], float]:
     global discovered_full_logid
     discovered_full_logid = None # Reset for new run
     
@@ -80,11 +82,12 @@ def check_if_anyone_did_hw(db: StudentDatabase, partial_logid: str, debug: bool 
     
     last_stt = db.get_last_stt()
     if last_stt == 0:
-        return (partial_logid, [], [])
+        return (partial_logid, [], [], 0.0)
 
-    print(f"Starting check for {last_stt} students with {DEFAULT_THREAD_COUNT} threads...")
-
-    with concurrent.futures.ThreadPoolExecutor(max_workers=DEFAULT_THREAD_COUNT) as executor:
+    print(f"Starting check for {last_stt} students with {CHECK_THREAD_COUNT} threads...")
+    
+    start_time = time.perf_counter()
+    with concurrent.futures.ThreadPoolExecutor(max_workers=CHECK_THREAD_COUNT) as executor:
         # Create futures
         futures = {executor.submit(check_single_student, stt, db, partial_logid, debug): stt for stt in range(1, last_stt + 1)}
         
@@ -108,11 +111,9 @@ def check_if_anyone_did_hw(db: StudentDatabase, partial_logid: str, debug: bool 
 
             except Exception as e:
                 print(f"Exception checking STT {stt}: {e}")
+    end_time = time.perf_counter()
+    elapsed_time = end_time - start_time
 
     final_logid = discovered_full_logid if discovered_full_logid else partial_logid
     
-    # Sort results by name for consistency, or keep them random. 
-    # Usually user might want them sorted by STT, but we lost that order.
-    # We can try to sort if we kept STT in the list, but the return signature only asks for name/token.
-    
-    return (final_logid, students_done, students_not_done)
+    return (final_logid, students_done, students_not_done, elapsed_time)

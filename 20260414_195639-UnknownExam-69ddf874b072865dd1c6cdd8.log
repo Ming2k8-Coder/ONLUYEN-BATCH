@@ -1,0 +1,11 @@
+Please input the logid of the test (partial OK): > Input: 5dd1c6cdd8
+Starting check for 43 students with 2 threads...
+[7] DISCOVERED FULL LOGID: 69ddf874b072865dd1c6cdd8
+[STT 7] Lê Anh Dũng: NOT DONE
+[STT 4] Nguyễn Việt Anh: NOT DONE
+[STT 8] Nguyễn Duy Dũng: NOT DONE
+[STT 27] Nguyễn Tuấn Minh: NOT DONE
+[STT 38] Trần Đức Toàn: NOT DONE
+[STT 42] Phạm Quang Việt: NOT DONE
+Total time for getting access tokens: 2.6374 seconds
+NO REF STUDENT CAN BE FOUND

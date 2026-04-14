@@ -35,7 +35,7 @@ def get_step_id(practice_id: str, bearer_token: str) -> str:
     }
 
     try:
-        response = requests.get(url, headers=headers)
+        response = requests.get(url, headers=headers, timeout=10)
         response.raise_for_status()  # Check for HTTP errors
         
         data = response.json()

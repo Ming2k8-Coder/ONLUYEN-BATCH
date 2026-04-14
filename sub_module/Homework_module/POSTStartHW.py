@@ -108,7 +108,7 @@ def start_assignment_request(assignment_id: str, token: str, debug_flag: bool = 
     try:
         # requests.post is used for the POST -Method
         # json=REQUEST_DATA handles the -Body "{}" and ensures Content-Type is application/json
-        response = requests.post(api_url, headers=headers, json=REQUEST_DATA)
+        response = requests.post(api_url, headers=headers, json=REQUEST_DATA, timeout=10)
 
         # Raise an exception for bad status codes (4xx or 5xx)
         response.raise_for_status()
